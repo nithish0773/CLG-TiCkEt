@@ -1,0 +1,1962 @@
+﻿{
+    "users":  [
+                  {
+                      "id":  "student@team1.com",
+                      "email_id":  "student@team1.com",
+                      "name":  "Asha Kumar",
+                      "role":  "student",
+                      "usn":  "1CF24CS042",
+                      "dept":  "Computer Science",
+                      "phone_number":  "9876543210",
+                      "otp":  "123456",
+                      "status":  "active",
+                      "assigned_count":  0,
+                      "completed_count":  0,
+                      "rating":  5,
+                      "last_login":  "2026-10-30T16:36:32.697Z",
+                      "avatar_url":  "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%3E%0A%20%20%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22bg-sb%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%233B82F6%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231D4ED8%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%2250%22%20cy%3D%2250%22%20r%3D%2250%22%20fill%3D%22url(%23bg-sb)%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C!--%20Head%20--%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%2250%22%20cy%3D%2240%22%20r%3D%2218%22%20fill%3D%22%23FED7AA%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C!--%20Hair%20%2F%20Cap%20--%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M30%2036%20C30%2024%2C%2070%2024%2C%2070%2036%20Z%22%20fill%3D%22%231E293B%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpolygon%20points%3D%2250%2C18%2072%2C25%2050%2C32%2028%2C25%22%20fill%3D%22%230F172A%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%2250%22%20cy%3D%2225%22%20r%3D%222.5%22%20fill%3D%22%23F59E0B%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M72%2025%20L75%2038%22%20stroke%3D%22%23F59E0B%22%20stroke-width%3D%222%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C!--%20Face%20Features%20--%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%2244%22%20cy%3D%2241%22%20r%3D%222%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%2256%22%20cy%3D%2241%22%20r%3D%222%22%20fill%3D%22%23334155%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M46%2048%20Q50%2052%2054%2048%22%20stroke%3D%22%23EA580C%22%20stroke-width%3D%222%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C!--%20Body%20%2F%20Hoodie%20--%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M22%2088%20C24%2064%2C%2076%2064%2C%2078%2088%20Z%22%20fill%3D%22%232563EB%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpolygon%20points%3D%2250%2C66%2043%2C80%2057%2C80%22%20fill%3D%22%23DBEAFE%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fsvg%3E",
+                      "updated_at":  "2026-10-30T20:17:37.479Z"
+                  },
+                  {
+                      "id":  "faculty@team1.com",
+                      "email_id":  "faculty@team1.com",
+                      "name":  "Dr. Vikram Sen",
+                      "role":  "faculty",
+                      "dept":  "Electronics \u0026 Comm",
+                      "designation":  "Associate Professor",
+                      "phone_number":  "9876543211",
+                      "otp":  "123456",
+                      "status":  "active",
+                      "assigned_count":  0,
+                      "completed_count":  0,
+                      "rating":  5,
+                      "last_login":  "2026-10-30T16:36:32.697Z"
+                  },
+                  {
+                      "id":  "staff@team1.com",
+                      "email_id":  "staff@team1.com",
+                      "name":  "Ravi Shetty",
+                      "role":  "office_staff",
+                      "dept":  "Campus Maintenance",
+                      "designation":  "Maintenance Supervisor",
+                      "phone_number":  "9876543212",
+                      "otp":  "123456",
+                      "status":  "active",
+                      "availability":  "available",
+                      "assigned_count":  3,
+                      "completed_count":  14,
+                      "rating":  4.9,
+                      "last_login":  "2026-10-30T16:36:32.697Z"
+                  },
+                  {
+                      "id":  "manager@team1.com",
+                      "email_id":  "manager@team1.com",
+                      "name":  "Kavita Sharma",
+                      "role":  "campus_manager",
+                      "dept":  "Campus Infrastructure",
+                      "designation":  "Chief Campus Operations Manager",
+                      "phone_number":  "9876543213",
+                      "otp":  "123456",
+                      "status":  "active",
+                      "availability":  "available",
+                      "assigned_count":  0,
+                      "completed_count":  0,
+                      "rating":  5,
+                      "last_login":  "2026-10-30T16:36:32.697Z"
+                  },
+                  {
+                      "id":  "admin@team1.com",
+                      "email_id":  "admin@team1.com",
+                      "name":  "Team Admin",
+                      "role":  "admin",
+                      "dept":  "Administration",
+                      "designation":  "System Administrator",
+                      "phone_number":  "9876543214",
+                      "otp":  "123456",
+                      "status":  "active",
+                      "assigned_count":  0,
+                      "completed_count":  0,
+                      "rating":  5,
+                      "last_login":  "2026-10-30T16:36:32.697Z"
+                  },
+                  {
+                      "id":  "admin@t4.com",
+                      "email_id":  "admin@t4.com",
+                      "name":  "Super Admin T4",
+                      "role":  "admin",
+                      "dept":  "Architecture \u0026 Engineering",
+                      "designation":  "Super Administrator",
+                      "phone_number":  "9000000013",
+                      "otp":  "973150",
+                      "team_id":  "t4",
+                      "status":  "active",
+                      "assigned_count":  0,
+                      "completed_count":  0,
+                      "rating":  5,
+                      "last_login":  "2026-10-31T00:30:00.000Z",
+                      "avatar_url":  "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%3E%0A%20%20%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22bg-ip%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%238B5CF6%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%236D28D9%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%2250%22%20cy%3D%2250%22%20r%3D%2250%22%20fill%3D%22url(%23bg-ip)%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C!--%20Head%20--%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%2250%22%20cy%3D%2242%22%20r%3D%2218%22%20fill%3D%22%23FDE047%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C!--%20Modern%20Hair%20--%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M32%2038%20C32%2020%2C%2068%2018%2C%2068%2038%20C62%2030%2C%2042%2028%2C%2032%2038%20Z%22%20fill%3D%22%23312E81%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C!--%20Glasses%20--%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%2236%22%20y%3D%2238%22%20width%3D%2211%22%20height%3D%228%22%20rx%3D%222%22%20fill%3D%22none%22%20stroke%3D%22%234338CA%22%20stroke-width%3D%222%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%2253%22%20y%3D%2238%22%20width%3D%2211%22%20height%3D%228%22%20rx%3D%222%22%20fill%3D%22none%22%20stroke%3D%22%234338CA%22%20stroke-width%3D%222%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cline%20x1%3D%2247%22%20y1%3D%2242%22%20x2%3D%2253%22%20y2%3D%2242%22%20stroke%3D%22%234338CA%22%20stroke-width%3D%222%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C!--%20Smile%20--%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M46%2051%20Q50%2054%2054%2051%22%20stroke%3D%22%23B45309%22%20stroke-width%3D%222%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C!--%20Body%20%2F%20Jacket%20--%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M20%2090%20C22%2066%2C%2078%2066%2C%2080%2090%20Z%22%20fill%3D%22%234C1D95%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M42%2068%20L50%2082%20L58%2068%20Z%22%20fill%3D%22%23C4B5FD%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fsvg%3E",
+                      "updated_at":  "2026-10-31T00:30:00.000Z"
+                  },
+                  {
+                      "id":  "admin@team13.com",
+                      "email_id":  "admin@team13.com",
+                      "name":  "Team 13 Admin",
+                      "role":  "admin",
+                      "dept":  "Administration",
+                      "designation":  "System Administrator",
+                      "phone_number":  "9000000013",
+                      "otp":  "595436",
+                      "team_id":  "team13",
+                      "status":  "active",
+                      "assigned_count":  0,
+                      "completed_count":  0,
+                      "rating":  5,
+                      "last_login":  "2026-10-30T16:36:32.697Z",
+                      "avatar_url":  "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%3E%0A%20%20%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22bg-ip%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%238B5CF6%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%236D28D9%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%2250%22%20cy%3D%2250%22%20r%3D%2250%22%20fill%3D%22url(%23bg-ip)%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C!--%20Head%20--%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%2250%22%20cy%3D%2242%22%20r%3D%2218%22%20fill%3D%22%23FDE047%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C!--%20Modern%20Hair%20--%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M32%2038%20C32%2020%2C%2068%2018%2C%2068%2038%20C62%2030%2C%2042%2028%2C%2032%2038%20Z%22%20fill%3D%22%23312E81%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C!--%20Glasses%20--%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%2236%22%20y%3D%2238%22%20width%3D%2211%22%20height%3D%228%22%20rx%3D%222%22%20fill%3D%22none%22%20stroke%3D%22%234338CA%22%20stroke-width%3D%222%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%2253%22%20y%3D%2238%22%20width%3D%2211%22%20height%3D%228%22%20rx%3D%222%22%20fill%3D%22none%22%20stroke%3D%22%234338CA%22%20stroke-width%3D%222%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cline%20x1%3D%2247%22%20y1%3D%2242%22%20x2%3D%2253%22%20y2%3D%2242%22%20stroke%3D%22%234338CA%22%20stroke-width%3D%222%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C!--%20Smile%20--%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M46%2051%20Q50%2054%2054%2051%22%20stroke%3D%22%23B45309%22%20stroke-width%3D%222%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C!--%20Body%20%2F%20Jacket%20--%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M20%2090%20C22%2066%2C%2078%2066%2C%2080%2090%20Z%22%20fill%3D%22%234C1D95%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M42%2068%20L50%2082%20L58%2068%20Z%22%20fill%3D%22%23C4B5FD%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fsvg%3E",
+                      "updated_at":  "2026-10-30T17:55:36.907Z"
+                  },
+                  {
+                      "id":  "kumar@team13.com",
+                      "email_id":  "kumar@team13.com",
+                      "name":  "Kumar Gowda",
+                      "role":  "office_staff",
+                      "dept":  "Campus Maintenance",
+                      "designation":  "Maintenance Supervisor",
+                      "phone_number":  "9000000013",
+                      "otp":  "595436",
+                      "team_id":  "team13",
+                      "status":  "active",
+                      "availability":  "available",
+                      "assigned_count":  3,
+                      "completed_count":  14,
+                      "rating":  4.9,
+                      "last_login":  "2026-10-30T16:36:32.697Z"
+                  },
+                  {
+                      "id":  "student@team13.com",
+                      "email_id":  "student@team13.com",
+                      "name":  "Student Team 13",
+                      "role":  "student",
+                      "usn":  "1CF24CS013",
+                      "dept":  "Computer Science",
+                      "phone_number":  "9000000013",
+                      "otp":  "595436",
+                      "team_id":  "team13",
+                      "status":  "active",
+                      "assigned_count":  0,
+                      "completed_count":  0,
+                      "rating":  5,
+                      "last_login":  "2026-10-30T16:36:32.697Z"
+                  },
+                  {
+                      "id":  "asha@team1.com",
+                      "email_id":  "asha@team1.com",
+                      "name":  "Asha Kumar",
+                      "role":  "student",
+                      "usn":  "1CF24CS001",
+                      "dept":  "CSE",
+                      "phone_number":  "9876543210",
+                      "otp":  "123456",
+                      "status":  "active",
+                      "assigned_count":  0,
+                      "completed_count":  0,
+                      "rating":  5,
+                      "last_login":  "2026-10-30T16:36:32.697Z",
+                      "avatar_url":  "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%3E%0A%20%20%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22bg-ip%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%238B5CF6%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%236D28D9%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%2250%22%20cy%3D%2250%22%20r%3D%2250%22%20fill%3D%22url(%23bg-ip)%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C!--%20Head%20--%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%2250%22%20cy%3D%2242%22%20r%3D%2218%22%20fill%3D%22%23FDE047%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C!--%20Modern%20Hair%20--%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M32%2038%20C32%2020%2C%2068%2018%2C%2068%2038%20C62%2030%2C%2042%2028%2C%2032%2038%20Z%22%20fill%3D%22%23312E81%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C!--%20Glasses%20--%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%2236%22%20y%3D%2238%22%20width%3D%2211%22%20height%3D%228%22%20rx%3D%222%22%20fill%3D%22none%22%20stroke%3D%22%234338CA%22%20stroke-width%3D%222%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%2253%22%20y%3D%2238%22%20width%3D%2211%22%20height%3D%228%22%20rx%3D%222%22%20fill%3D%22none%22%20stroke%3D%22%234338CA%22%20stroke-width%3D%222%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cline%20x1%3D%2247%22%20y1%3D%2242%22%20x2%3D%2253%22%20y2%3D%2242%22%20stroke%3D%22%234338CA%22%20stroke-width%3D%222%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C!--%20Smile%20--%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M46%2051%20Q50%2054%2054%2051%22%20stroke%3D%22%23B45309%22%20stroke-width%3D%222%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C!--%20Body%20%2F%20Jacket%20--%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M20%2090%20C22%2066%2C%2078%2066%2C%2080%2090%20Z%22%20fill%3D%22%234C1D95%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M42%2068%20L50%2082%20L58%2068%20Z%22%20fill%3D%22%23C4B5FD%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fsvg%3E",
+                      "updated_at":  "2026-10-30T17:58:19.456Z"
+                  },
+                  {
+                      "id":  "kumar@team1.com",
+                      "email_id":  "kumar@team1.com",
+                      "name":  "Kumar Gowda",
+                      "role":  "office_staff",
+                      "dept":  "Campus Maintenance",
+                      "designation":  "Supervisor",
+                      "phone_number":  "9876543215",
+                      "otp":  "123456",
+                      "status":  "active",
+                      "availability":  "available",
+                      "assigned_count":  3,
+                      "completed_count":  14,
+                      "rating":  4.9,
+                      "last_login":  "2026-10-30T16:36:32.697Z"
+                  },
+                  {
+                      "id":  "ravi@team1.com",
+                      "email_id":  "ravi@team1.com",
+                      "name":  "Ravi Shetty",
+                      "role":  "office_staff",
+                      "dept":  "Student Affairs",
+                      "designation":  "Accountant",
+                      "phone_number":  "9876543211",
+                      "otp":  "123456",
+                      "status":  "active",
+                      "availability":  "available",
+                      "assigned_count":  3,
+                      "completed_count":  14,
+                      "rating":  4.9,
+                      "last_login":  "2026-10-30T16:36:32.697Z"
+                  },
+                  {
+                      "id":  "meera@team1.com",
+                      "email_id":  "meera@team1.com",
+                      "name":  "Dr. Meera Rao",
+                      "role":  "faculty",
+                      "designation":  "Professor",
+                      "phone_number":  "9876543212",
+                      "otp":  "123456",
+                      "status":  "active",
+                      "assigned_count":  0,
+                      "completed_count":  0,
+                      "rating":  5,
+                      "last_login":  "2026-10-30T16:36:32.697Z"
+                  },
+                  {
+                      "role":  "office_staff",
+                      "team_id":  "team13",
+                      "name":  "Ramesh Kumar",
+                      "email_id":  "maintenance@team13.com",
+                      "phone_number":  "9000000002",
+                      "dept":  "Campus Maintenance",
+                      "department":  "Campus Maintenance",
+                      "designation":  "Maintenance Lead",
+                      "otp":  "595436",
+                      "status":  "active",
+                      "availability":  "available",
+                      "assigned_count":  5,
+                      "completed_count":  14,
+                      "rating":  4.9
+                  },
+                  {
+                      "role":  "faculty",
+                      "team_id":  "team13",
+                      "name":  "Dr. Meera Rao",
+                      "email_id":  "faculty@team13.com",
+                      "phone_number":  "9000000003",
+                      "dept":  "Computer Science",
+                      "department":  "Computer Science",
+                      "designation":  "Associate Professor",
+                      "otp":  "595436",
+                      "status":  "active"
+                  },
+                  {
+                      "role":  "office_staff",
+                      "team_id":  "team13",
+                      "name":  "Ravi Shetty",
+                      "email_id":  "staff@team13.com",
+                      "phone_number":  "9000000004",
+                      "dept":  "Student Affairs",
+                      "department":  "Student Affairs",
+                      "designation":  "Administrative Officer",
+                      "otp":  "595436",
+                      "status":  "active"
+                  },
+                  {
+                      "role":  "campus_manager",
+                      "team_id":  "team13",
+                      "name":  "Suresh Patil",
+                      "email_id":  "manager@team13.com",
+                      "phone_number":  "9000000005",
+                      "dept":  "Campus Operations",
+                      "department":  "Campus Operations",
+                      "designation":  "Campus Manager",
+                      "otp":  "595436",
+                      "status":  "active"
+                  }
+              ],
+    "issueTypes":  [
+                       {
+                           "id":  "it-1",
+                           "name":  "Electrical \u0026 Power Systems",
+                           "description":  "Main switchgear, wiring, high-voltage substations, backup UPS, overhead lighting, circuit breakers.",
+                           "created_at":  "2026-09-30T13:52:42.429Z"
+                       },
+                       {
+                           "id":  "it-2",
+                           "name":  "HVAC \u0026 Climate Control",
+                           "description":  "Chillers, central air handling units, AHU air ducts, lab climate monitoring, coolant lines.",
+                           "created_at":  "2026-10-02T13:52:42.435Z"
+                       },
+                       {
+                           "id":  "it-3",
+                           "name":  "Plumbing \u0026 Hydraulic Infrastructure",
+                           "description":  "Treated water network, overhead distribution tanks, RO purification, laboratory drainage, sanitary lines.",
+                           "created_at":  "2026-10-05T13:52:42.435Z"
+                       },
+                       {
+                           "id":  "it-4",
+                           "name":  "Structural \u0026 Architectural Maintenance",
+                           "description":  "Building envelope, masonry, waterproofing, ceiling leakage, double-glazed window sashes, expansion joints.",
+                           "created_at":  "2026-10-10T13:52:42.435Z"
+                       },
+                       {
+                           "id":  "it-5",
+                           "name":  "Elevators \u0026 Vertical Conveyance",
+                           "description":  "Traction passenger lifts, freight elevators, emergency interlock controllers, door sensory curtains.",
+                           "created_at":  "2026-10-15T13:52:42.435Z"
+                       },
+                       {
+                           "id":  "it-6",
+                           "name":  "Network Infrastructure \u0026 IoT",
+                           "description":  "Optical fiber riser backbones, PoE distribution switches, smart campus sensors, environmental telemetry.",
+                           "created_at":  "2026-10-20T13:52:42.435Z"
+                       },
+                       {
+                           "id":  "it-7",
+                           "name":  "Fire Protection \u0026 Life Safety",
+                           "description":  "Addressable smoke detectors, dry powder extinguishers, wet riser valves, illuminated evacuation paths.",
+                           "created_at":  "2026-10-25T13:52:42.435Z"
+                       },
+                       {
+                           "id":  "it-8",
+                           "name":  "Other / Miscellaneous",
+                           "description":  "General campus facility defects, custom repairs, laboratory fixtures, and manual miscellaneous issues.",
+                           "created_at":  "2026-10-30T22:18:11.112Z"
+                       }
+                   ],
+    "tickets":  [
+                    {
+                        "id":  "TICK-1001",
+                        "title":  "Server Room 302 Chiller Auxiliary Compressor Trip",
+                        "description":  "The secondary compressor in the 3rd floor server room tripped with error E-44 (Thermal Overload). Room ambient temperature elevated from 19Ã‚Â°C to 27.5Ã‚Â°C within 40 minutes.",
+                        "issue_type":  "HVAC \u0026 Climate Control",
+                        "issue_type_id":  "it-2",
+                        "building":  "Aryabhata Engineering Block",
+                        "location":  "Floor 3, Server Enclosure 302B",
+                        "reporter":  {
+                                         "name":  "Asha Kumar",
+                                         "email":  "student@team1.com",
+                                         "role":  "student"
+                                     },
+                        "created_at":  "2026-10-26T13:52:42.435Z",
+                        "updated_at":  "2026-10-29T13:52:42.435Z",
+                        "status":  "open",
+                        "expected_completion_date":  "2026-10-29",
+                        "is_overdue":  true,
+                        "has_photo":  true,
+                        "manager_notes":  "Technician team dispatched. Freon leak suspected on circuit 2. Compressor replacement on order.",
+                        "status_history":  [
+                                               {
+                                                   "status":  "open",
+                                                   "changed_by":  "Asha Kumar",
+                                                   "timestamp":  "2026-10-26T13:52:42.435Z",
+                                                   "comment":  "Initial incident report logged via FIXIT mobile portal."
+                                               }
+                                           ],
+                        "priority":  "high",
+                        "assigned_to":  {
+                                            "name":  "Kumar Gowda",
+                                            "email":  "kumar@team13.com",
+                                            "phone":  "9000000013"
+                                        },
+                        "archived":  false
+                    },
+                    {
+                        "id":  "TICK-1002",
+                        "title":  "Hydraulic Risers Main Valve Water Ingress",
+                        "description":  "Underground conduit flange connection leaking into basement cable trench near distribution switchgear. Sump pumps actively handling 15 liters/min.",
+                        "issue_type":  "Plumbing \u0026 Hydraulic Infrastructure",
+                        "issue_type_id":  "it-3",
+                        "building":  "Visvesvaraya Central Lab",
+                        "location":  "Sub-Basement B1, Valve Pit 4",
+                        "reporter":  {
+                                         "name":  "Dr. Vikram Sen",
+                                         "email":  "faculty@team1.com",
+                                         "role":  "faculty"
+                                     },
+                        "created_at":  "2026-10-27T13:52:42.435Z",
+                        "updated_at":  "2026-10-29T13:52:42.435Z",
+                        "status":  "open",
+                        "expected_completion_date":  "2026-11-01",
+                        "is_overdue":  false,
+                        "has_photo":  true,
+                        "manager_notes":  "Gasket replacement scheduled tonight during low-consumption maintenance window (01:00 - 04:00).",
+                        "status_history":  [
+                                               {
+                                                   "status":  "open",
+                                                   "changed_by":  "Dr. Vikram Sen",
+                                                   "timestamp":  "2026-10-27T13:52:42.435Z",
+                                                   "comment":  "Identified during morning routine lab equipment check."
+                                               }
+                                           ],
+                        "priority":  "high",
+                        "assigned_to":  {
+                                            "name":  "Kumar Gowda",
+                                            "email":  "kumar@team13.com",
+                                            "phone":  "9000000013"
+                                        },
+                        "archived":  false
+                    },
+                    {
+                        "id":  "TICK-1003",
+                        "title":  "Phase 3 Harmonic Surge on Laser Spectroscopy Sub-panel",
+                        "description":  "Voltage fluctuation exceeding 18% on Phase 3 causing intermittent resets on high-precision optical bench instrumentation. Neutral return showing 42V offset.",
+                        "issue_type":  "Electrical \u0026 Power Systems",
+                        "issue_type_id":  "it-1",
+                        "building":  "Ramanujan Science Tower",
+                        "location":  "Lab 404, Precision Optics Wing",
+                        "reporter":  {
+                                         "name":  "Dr. Vikram Sen",
+                                         "email":  "faculty@team1.com",
+                                         "role":  "faculty"
+                                     },
+                        "created_at":  "2026-10-28T13:52:42.435Z",
+                        "updated_at":  "2026-10-30T01:52:42.435Z",
+                        "status":  "open",
+                        "expected_completion_date":  "2026-10-31",
+                        "is_overdue":  false,
+                        "has_photo":  true,
+                        "manager_notes":  "Power quality analyzer installed on substation tap. Testing grounding rod impedance.",
+                        "status_history":  [
+                                               {
+                                                   "status":  "open",
+                                                   "changed_by":  "Dr. Vikram Sen",
+                                                   "timestamp":  "2026-10-28T13:52:42.435Z",
+                                                   "comment":  "Experiment interrupted twice this morning."
+                                               }
+                                           ],
+                        "priority":  "high",
+                        "assigned_to":  {
+                                            "name":  "Kumar Gowda",
+                                            "email":  "kumar@team13.com",
+                                            "phone":  "9000000013"
+                                        },
+                        "archived":  false
+                    },
+                    {
+                        "id":  "TICK-1004",
+                        "title":  "Passenger Lift L-02 Micro-Switch Interlock Seizure",
+                        "description":  "Door optical curtain repeatedly fails to cycle, holding cab stationary at Level 2 with alarm buzzer active. Safeties engaged.",
+                        "issue_type":  "Elevators \u0026 Vertical Conveyance",
+                        "issue_type_id":  "it-5",
+                        "building":  "Kalam Innovation Hub",
+                        "location":  "North Shaft, Elevator Bank B",
+                        "reporter":  {
+                                         "name":  "Ravi Shetty",
+                                         "email":  "staff@team1.com",
+                                         "role":  "office_staff"
+                                     },
+                        "created_at":  "2026-10-25T13:52:42.435Z",
+                        "updated_at":  "2026-10-30T07:52:42.435Z",
+                        "status":  "resolved",
+                        "expected_completion_date":  "2026-10-29",
+                        "is_overdue":  false,
+                        "has_photo":  true,
+                        "manager_notes":  "Schindler vendor technician replaced optical transceiver and recalibrated door closing torque. Load tested with 800kg deadweight.",
+                        "status_history":  [
+                                               {
+                                                   "status":  "open",
+                                                   "changed_by":  "Ravi Shetty",
+                                                   "timestamp":  "2026-10-25T13:52:42.435Z",
+                                                   "comment":  "Reported by staff on morning opening."
+                                               },
+                                               {
+                                                   "status":  "resolved",
+                                                   "changed_by":  "Kavita Sharma",
+                                                   "timestamp":  "2026-10-30T07:52:42.435Z",
+                                                   "comment":  "Vendor verified safe for operation. Ready for user verification."
+                                               }
+                                           ],
+                        "priority":  "high",
+                        "assigned_to":  {
+                                            "name":  "Kumar Gowda",
+                                            "email":  "kumar@team13.com",
+                                            "phone":  "9000000013"
+                                        },
+                        "archived":  false
+                    },
+                    {
+                        "id":  "TICK-1005",
+                        "title":  "Reading Hall East Wing Linear LED Array Flicker",
+                        "description":  "Continuous 100Hz stroboscopic flickering on luminaires L-12 through L-24 causing eye strain for 80+ student cubicles.",
+                        "issue_type":  "Electrical \u0026 Power Systems",
+                        "issue_type_id":  "it-1",
+                        "building":  "Campus Central Library",
+                        "location":  "Level 2, East Reference Section",
+                        "reporter":  {
+                                         "name":  "Asha Kumar",
+                                         "email":  "student@team1.com",
+                                         "role":  "student"
+                                     },
+                        "created_at":  "2026-10-22T13:52:42.435Z",
+                        "updated_at":  "2026-10-28T13:52:42.435Z",
+                        "status":  "acknowledged",
+                        "expected_completion_date":  "2026-10-27",
+                        "is_overdue":  false,
+                        "has_photo":  true,
+                        "manager_notes":  "Failed DALI dimming driver unit replaced. Light meter reads steady 480 lux across all desks.",
+                        "status_history":  [
+                                               {
+                                                   "status":  "open",
+                                                   "changed_by":  "Asha Kumar",
+                                                   "timestamp":  "2026-10-22T13:52:42.435Z",
+                                                   "comment":  "Flickering started during evening study session."
+                                               },
+                                               {
+                                                   "status":  "resolved",
+                                                   "changed_by":  "Kavita Sharma",
+                                                   "timestamp":  "2026-10-26T13:52:42.435Z",
+                                                   "comment":  "Driver board replaced by electrician."
+                                               },
+                                               {
+                                                   "status":  "acknowledged",
+                                                   "changed_by":  "Asha Kumar",
+                                                   "timestamp":  "2026-10-28T13:52:42.435Z",
+                                                   "comment":  "Inspected and confirmed lighting is uniform and quiet. Excellent work!"
+                                               }
+                                           ],
+                        "priority":  "high",
+                        "assigned_to":  {
+                                            "name":  "Kumar Gowda",
+                                            "email":  "kumar@team13.com",
+                                            "phone":  "9000000013"
+                                        },
+                        "archived":  false
+                    },
+                    {
+                        "id":  "TICK-1006",
+                        "title":  "Solar Water Heater Heat-Exchanger Valve Burst",
+                        "description":  "Rooftop collector loop 3 losing hot water down external facade drain pipe. Pressure relief valve stuck in open bypass mode.",
+                        "issue_type":  "Plumbing \u0026 Hydraulic Infrastructure",
+                        "issue_type_id":  "it-3",
+                        "building":  "Campus Hostel Complex - Block A",
+                        "location":  "Rooftop Array, Zone C",
+                        "reporter":  {
+                                         "name":  "Asha Kumar",
+                                         "email":  "student@team1.com",
+                                         "role":  "student"
+                                     },
+                        "created_at":  "2026-10-29T13:52:42.435Z",
+                        "updated_at":  "2026-10-30T09:52:42.435Z",
+                        "status":  "open",
+                        "expected_completion_date":  "2026-11-02",
+                        "is_overdue":  false,
+                        "has_photo":  true,
+                        "manager_notes":  "Temporary manual isolation valve turned off. Replacement temperature-pressure relief valve requisitioned.",
+                        "status_history":  [
+                                               {
+                                                   "status":  "open",
+                                                   "changed_by":  "Asha Kumar",
+                                                   "timestamp":  "2026-10-29T13:52:42.435Z",
+                                                   "comment":  "Water steam seen discharging over western parapet."
+                                               }
+                                           ],
+                        "priority":  "high",
+                        "assigned_to":  {
+                                            "name":  "Kumar Gowda",
+                                            "email":  "kumar@team13.com",
+                                            "phone":  "9000000013"
+                                        },
+                        "archived":  false
+                    }
+                ],
+    "customization":  {
+                          "published_at":  "2026-10-30T21:40:00Z",
+                          "hero_subtitle":  "High-speed ticketing, SLA tracking, building health maps, and automated maintenance routing.",
+                          "primary_color":  "#2563EB",
+                          "version":  1,
+                          "logo_url":  "/vite.svg",
+                          "banner_alert_active":  false,
+                          "maintenance_mode":  {
+                                                   "enabled":  false,
+                                                   "message":  "Scheduled system upgrade in progress. Normal operations will resume shortly.",
+                                                   "estimated_completion":  "2026-10-31T02:00:00Z"
+                                               },
+                          "footer_copyright":  "Â© 2026 Campus OS. All rights reserved.",
+                          "brand_name":  "FIXIT",
+                          "secondary_color":  "#10B981",
+                          "tagline":  "Campus Infrastructure Intelligence Platform",
+                          "draft":  null,
+                          "hero_title":  "Campus Infrastructure Intelligence \u0026 Autonomous Operations",
+                          "history":  [
+
+                                      ],
+                          "favicon_url":  "/favicon.ico",
+                          "nav_links":  [
+                                            {
+                                                "label":  "Command Center",
+                                                "path":  "/tracks/fixit",
+                                                "id":  "overview",
+                                                "visible":  true
+                                            },
+                                            {
+                                                "label":  "My Tickets",
+                                                "path":  "/tracks/fixit/my-tickets",
+                                                "id":  "my-tickets",
+                                                "visible":  true
+                                            },
+                                            {
+                                                "label":  "All Incidents",
+                                                "path":  "/tracks/fixit/tickets",
+                                                "id":  "tickets",
+                                                "visible":  true
+                                            },
+                                            {
+                                                "label":  "Campus Map",
+                                                "path":  "/tracks/fixit/map",
+                                                "id":  "map",
+                                                "visible":  true
+                                            },
+                                            {
+                                                "label":  "Analytics \u0026 SLA",
+                                                "path":  "/tracks/fixit/analytics",
+                                                "id":  "analytics",
+                                                "visible":  true
+                                            },
+                                            {
+                                                "label":  "Issue Categories",
+                                                "path":  "/tracks/fixit/categories",
+                                                "id":  "categories",
+                                                "visible":  true
+                                            }
+                                        ],
+                          "font_family":  "Inter",
+                          "footer_text":  "FIXIT Campus Infrastructure Intelligence Platform â€¢ Team 13",
+                          "banner_alert_text":  "Notice: Campus Maintenance scheduled for Central Computing Lab.",
+                          "enabled_sections":  [
+                                                   "overview",
+                                                   "tickets",
+                                                   "map",
+                                                   "analytics",
+                                                   "categories",
+                                                   "notifications"
+                                               ]
+                      },
+    "pages":  [
+                  {
+                      "slug":  "infrastructure-policy",
+                      "id":  "page-1",
+                      "updated_at":  "2026-10-30T10:00:00Z",
+                      "content":  "Standard resolution time for Critical incidents: 6 hours. High priority: 12 hours. Medium: 24 hours. Low: 48 hours.",
+                      "description":  "Service level agreements and response priorities for all campus facilities",
+                      "created_at":  "2026-10-30T10:00:00Z",
+                      "views":  342,
+                      "status":  "published",
+                      "title":  "Campus Infrastructure SLA Policy"
+                  },
+                  {
+                      "slug":  "emergency-protocol",
+                      "id":  "page-2",
+                      "updated_at":  "2026-10-30T10:00:00Z",
+                      "content":  "For immediate dispatch call Control Room 9000000013. Power emergency: Substation B. Water emergency: Utility valve 4.",
+                      "description":  "Immediate actions for severe water leaks, power failures, or structural hazards",
+                      "created_at":  "2026-10-30T10:00:00Z",
+                      "views":  189,
+                      "status":  "published",
+                      "title":  "Emergency Facilities Protocol"
+                  }
+              ],
+    "announcements":  [
+                          {
+                              "target_role":  "all",
+                              "id":  "ann-1",
+                              "created_at":  "2026-10-30T14:00:00Z",
+                              "title":  "Overhead Water Tank Inspection in Visvesvaraya Block",
+                              "delivered_count":  142,
+                              "status":  "published",
+                              "priority":  "high",
+                              "message":  "Pressure testing will occur today between 3 PM and 5 PM. Minor water interruptions may occur."
+                          },
+                          {
+                              "target_role":  "faculty",
+                              "id":  "ann-2",
+                              "created_at":  "2026-10-30T15:30:00Z",
+                              "title":  "Guaranteed 6-Hour SLA on Classroom Projectors",
+                              "delivered_count":  48,
+                              "status":  "published",
+                              "priority":  "normal",
+                              "message":  "Academic facilities now enjoy prioritized rapid repair windows for all multimedia equipment."
+                          }
+                      ],
+    "developer_activity":  [
+                               {
+                                   "id":  "act-1793391457305-281",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_EXIT",
+                                   "affected_resource":  "Developer Console",
+                                   "details":  "Developer exited evaluation simulation mode and returned to Super Admin dashboard",
+                                   "timestamp":  "2026-10-30T20:17:37.305Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793391456965-945",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_START",
+                                   "affected_resource":  "asha@team1.com",
+                                   "details":  "User admin@team13.com switched role to Asha Kumar (student)",
+                                   "timestamp":  "2026-10-30T20:17:36.965Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793391456862-606",
+                                   "developer_id":  "student@team1.com",
+                                   "action":  "ROLE_SIMULATION_START",
+                                   "affected_resource":  "kumar@team1.com",
+                                   "details":  "User student@team1.com switched role to Kumar Gowda (office_staff)",
+                                   "timestamp":  "2026-10-30T20:17:36.862Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793391449245-220",
+                                   "developer_id":  "admin@t4.com",
+                                   "action":  "DEVELOPER_LOGIN",
+                                   "affected_resource":  "Authentication",
+                                   "details":  "Super Admin admin@t4.com authenticated",
+                                   "timestamp":  "2026-10-30T20:17:29.245Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793391433197-263",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_EXIT",
+                                   "affected_resource":  "Developer Console",
+                                   "details":  "Developer exited evaluation simulation mode and returned to Super Admin dashboard",
+                                   "timestamp":  "2026-10-30T20:17:13.197Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793391432679-226",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_START",
+                                   "affected_resource":  "asha@team1.com",
+                                   "details":  "User admin@team13.com switched role to Asha Kumar (student)",
+                                   "timestamp":  "2026-10-30T20:17:12.679Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793391431935-720",
+                                   "developer_id":  "student@team1.com",
+                                   "action":  "ROLE_SIMULATION_START",
+                                   "affected_resource":  "kumar@team1.com",
+                                   "details":  "User student@team1.com switched role to Kumar Gowda (office_staff)",
+                                   "timestamp":  "2026-10-30T20:17:11.935Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793391426947-739",
+                                   "developer_id":  "admin@t4.com",
+                                   "action":  "DEVELOPER_LOGIN",
+                                   "affected_resource":  "Authentication",
+                                   "details":  "Super Admin admin@t4.com authenticated",
+                                   "timestamp":  "2026-10-30T20:17:06.947Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793391411826-734",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_EXIT",
+                                   "affected_resource":  "Developer Console",
+                                   "details":  "Developer exited evaluation simulation mode and returned to Super Admin dashboard",
+                                   "timestamp":  "2026-10-30T20:16:51.826Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793391411492-482",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_START",
+                                   "affected_resource":  "asha@team1.com",
+                                   "details":  "User admin@team13.com switched role to Asha Kumar (student)",
+                                   "timestamp":  "2026-10-30T20:16:51.492Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793391410996-278",
+                                   "developer_id":  "student@team1.com",
+                                   "action":  "ROLE_SIMULATION_START",
+                                   "affected_resource":  "kumar@team1.com",
+                                   "details":  "User student@team1.com switched role to Kumar Gowda (office_staff)",
+                                   "timestamp":  "2026-10-30T20:16:50.996Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793391407525-688",
+                                   "developer_id":  "admin@t4.com",
+                                   "action":  "DEVELOPER_LOGIN",
+                                   "affected_resource":  "Authentication",
+                                   "details":  "Super Admin admin@t4.com authenticated",
+                                   "timestamp":  "2026-10-30T20:16:47.525Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793391360326-392",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_EXIT",
+                                   "affected_resource":  "Developer Console",
+                                   "details":  "Developer exited evaluation simulation mode and returned to Super Admin dashboard",
+                                   "timestamp":  "2026-10-30T20:16:00.326Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793391360044-158",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_START",
+                                   "affected_resource":  "asha@team1.com",
+                                   "details":  "User admin@team13.com switched role to Asha Kumar (student)",
+                                   "timestamp":  "2026-10-30T20:16:00.044Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793391357230-738",
+                                   "developer_id":  "student@team1.com",
+                                   "action":  "ROLE_SIMULATION_START",
+                                   "affected_resource":  "kumar@team1.com",
+                                   "details":  "User student@team1.com switched role to Kumar Gowda (office_staff)",
+                                   "timestamp":  "2026-10-30T20:15:57.230Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793391350315-168",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_EXIT",
+                                   "affected_resource":  "Developer Console",
+                                   "details":  "Developer exited evaluation simulation mode and returned to Super Admin dashboard",
+                                   "timestamp":  "2026-10-30T20:15:50.315Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793391349254-479",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_START",
+                                   "affected_resource":  "asha@team1.com",
+                                   "details":  "User admin@team13.com switched role to Asha Kumar (student)",
+                                   "timestamp":  "2026-10-30T20:15:49.254Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793391348561-428",
+                                   "developer_id":  "student@team1.com",
+                                   "action":  "ROLE_SIMULATION_START",
+                                   "affected_resource":  "kumar@team1.com",
+                                   "details":  "User student@team1.com switched role to Kumar Gowda (office_staff)",
+                                   "timestamp":  "2026-10-30T20:15:48.561Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793391338786-722",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_EXIT",
+                                   "affected_resource":  "Developer Console",
+                                   "details":  "Developer exited evaluation simulation mode and returned to Super Admin dashboard",
+                                   "timestamp":  "2026-10-30T20:15:38.786Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793391338467-198",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_START",
+                                   "affected_resource":  "asha@team1.com",
+                                   "details":  "User admin@team13.com switched role to Asha Kumar (student)",
+                                   "timestamp":  "2026-10-30T20:15:38.467Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793391337824-746",
+                                   "developer_id":  "student@team1.com",
+                                   "action":  "ROLE_SIMULATION_START",
+                                   "affected_resource":  "kumar@team1.com",
+                                   "details":  "User student@team1.com switched role to Kumar Gowda (office_staff)",
+                                   "timestamp":  "2026-10-30T20:15:37.824Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793391311617-289",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_EXIT",
+                                   "affected_resource":  "Developer Console",
+                                   "details":  "Developer exited evaluation simulation mode and returned to Super Admin dashboard",
+                                   "timestamp":  "2026-10-30T20:15:11.617Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793391311314-621",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_START",
+                                   "affected_resource":  "asha@team1.com",
+                                   "details":  "User admin@team13.com switched role to Asha Kumar (student)",
+                                   "timestamp":  "2026-10-30T20:15:11.314Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793391309416-454",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_EXIT",
+                                   "affected_resource":  "Developer Console",
+                                   "details":  "Developer exited evaluation simulation mode and returned to Super Admin dashboard",
+                                   "timestamp":  "2026-10-30T20:15:09.416Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793391309048-580",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_START",
+                                   "affected_resource":  "asha@team1.com",
+                                   "details":  "User admin@team13.com switched role to Asha Kumar (student)",
+                                   "timestamp":  "2026-10-30T20:15:09.048Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793391299789-389",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_EXIT",
+                                   "affected_resource":  "Developer Console",
+                                   "details":  "Developer exited evaluation simulation mode and returned to Super Admin dashboard",
+                                   "timestamp":  "2026-10-30T20:14:59.789Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793391299520-569",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_START",
+                                   "affected_resource":  "asha@team1.com",
+                                   "details":  "User admin@team13.com switched role to Asha Kumar (student)",
+                                   "timestamp":  "2026-10-30T20:14:59.520Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793391249208-668",
+                                   "developer_id":  "student@team1.com",
+                                   "action":  "ROLE_SIMULATION_START",
+                                   "affected_resource":  "kumar@team1.com",
+                                   "details":  "User student@team1.com switched role to Kumar Gowda (office_staff)",
+                                   "timestamp":  "2026-10-30T20:14:09.208Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793391214315-199",
+                                   "developer_id":  "student@team1.com",
+                                   "action":  "ROLE_SIMULATION_START",
+                                   "affected_resource":  "kumar@team1.com",
+                                   "details":  "User student@team1.com switched role to Kumar Gowda (office_staff)",
+                                   "timestamp":  "2026-10-30T20:13:34.315Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793391180767-788",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_EXIT",
+                                   "affected_resource":  "Developer Console",
+                                   "details":  "Developer exited evaluation simulation mode and returned to Super Admin dashboard",
+                                   "timestamp":  "2026-10-30T20:13:00.767Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793391180584-99",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_START",
+                                   "affected_resource":  "asha@team1.com",
+                                   "details":  "User admin@team13.com switched role to Asha Kumar (student)",
+                                   "timestamp":  "2026-10-30T20:13:00.584Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793391174038-343",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_EXIT",
+                                   "affected_resource":  "Developer Console",
+                                   "details":  "Developer exited evaluation simulation mode and returned to Super Admin dashboard",
+                                   "timestamp":  "2026-10-30T20:12:54.038Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793391173591-746",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_START",
+                                   "affected_resource":  "asha@team1.com",
+                                   "details":  "User admin@team13.com switched role to Asha Kumar (student)",
+                                   "timestamp":  "2026-10-30T20:12:53.591Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793391162724-617",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_EXIT",
+                                   "affected_resource":  "Developer Console",
+                                   "details":  "Developer exited evaluation simulation mode and returned to Super Admin dashboard",
+                                   "timestamp":  "2026-10-30T20:12:42.724Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793391162228-269",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_START",
+                                   "affected_resource":  "asha@team1.com",
+                                   "details":  "User admin@team13.com switched role to Asha Kumar (student)",
+                                   "timestamp":  "2026-10-30T20:12:42.228Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793390987240-257",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_EXIT",
+                                   "affected_resource":  "Developer Console",
+                                   "details":  "Developer exited evaluation simulation mode and returned to Super Admin dashboard",
+                                   "timestamp":  "2026-10-30T20:09:47.240Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793390986817-73",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_START",
+                                   "affected_resource":  "asha@team1.com",
+                                   "details":  "User admin@team13.com switched role to Asha Kumar (student)",
+                                   "timestamp":  "2026-10-30T20:09:46.817Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793390982517-697",
+                                   "developer_id":  "admin@t4.com",
+                                   "action":  "DEVELOPER_LOGIN",
+                                   "affected_resource":  "Authentication",
+                                   "details":  "Super Admin admin@t4.com authenticated",
+                                   "timestamp":  "2026-10-30T20:09:42.517Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793390971531-681",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_EXIT",
+                                   "affected_resource":  "Developer Console",
+                                   "details":  "Developer exited evaluation simulation mode and returned to Super Admin dashboard",
+                                   "timestamp":  "2026-10-30T20:09:31.531Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793390971228-998",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_START",
+                                   "affected_resource":  "asha@team1.com",
+                                   "details":  "User admin@team13.com switched role to Asha Kumar (student)",
+                                   "timestamp":  "2026-10-30T20:09:31.228Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793390967306-538",
+                                   "developer_id":  "admin@t4.com",
+                                   "action":  "DEVELOPER_LOGIN",
+                                   "affected_resource":  "Authentication",
+                                   "details":  "Super Admin admin@t4.com authenticated",
+                                   "timestamp":  "2026-10-30T20:09:27.306Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793390954762-740",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_EXIT",
+                                   "affected_resource":  "Developer Console",
+                                   "details":  "Developer exited evaluation simulation mode and returned to Super Admin dashboard",
+                                   "timestamp":  "2026-10-30T20:09:14.762Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793390954454-16",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_START",
+                                   "affected_resource":  "asha@team1.com",
+                                   "details":  "User admin@team13.com switched role to Asha Kumar (student)",
+                                   "timestamp":  "2026-10-30T20:09:14.455Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793390952608-885",
+                                   "developer_id":  "admin@t4.com",
+                                   "action":  "DEVELOPER_LOGIN",
+                                   "affected_resource":  "Authentication",
+                                   "details":  "Super Admin admin@t4.com authenticated",
+                                   "timestamp":  "2026-10-30T20:09:12.608Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793390403301-628",
+                                   "developer_id":  "meera@team1.com",
+                                   "action":  "ROLE_SIMULATION_START",
+                                   "affected_resource":  "manager@team1.com",
+                                   "details":  "User meera@team1.com switched role to Kavita Sharma (campus_manager)",
+                                   "timestamp":  "2026-10-30T20:00:03.301Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793390402263-765",
+                                   "developer_id":  "meera@team1.com",
+                                   "action":  "ROLE_SIMULATION_EXIT",
+                                   "affected_resource":  "Developer Console",
+                                   "details":  "Developer exited evaluation simulation mode and returned to Super Admin dashboard",
+                                   "timestamp":  "2026-10-30T20:00:02.263Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793390400580-730",
+                                   "developer_id":  "meera@team1.com",
+                                   "action":  "ROLE_SIMULATION_START",
+                                   "affected_resource":  "ravi@team1.com",
+                                   "details":  "User meera@team1.com switched role to Ravi Shetty (office_staff)",
+                                   "timestamp":  "2026-10-30T20:00:00.580Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793390398954-406",
+                                   "developer_id":  "kumar@team1.com",
+                                   "action":  "ROLE_SIMULATION_START",
+                                   "affected_resource":  "meera@team1.com",
+                                   "details":  "User kumar@team1.com switched role to Dr. Meera Rao (faculty)",
+                                   "timestamp":  "2026-10-30T19:59:58.954Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793390397202-890",
+                                   "developer_id":  "asha@team1.com",
+                                   "action":  "ROLE_SIMULATION_START",
+                                   "affected_resource":  "kumar@team1.com",
+                                   "details":  "User asha@team1.com switched role to Kumar Gowda (office_staff)",
+                                   "timestamp":  "2026-10-30T19:59:57.202Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793390395477-807",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_START",
+                                   "affected_resource":  "asha@team1.com",
+                                   "details":  "User admin@team13.com switched role to Asha Kumar (student)",
+                                   "timestamp":  "2026-10-30T19:59:55.477Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793390233949-732",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_START",
+                                   "affected_resource":  "kumar@team1.com",
+                                   "details":  "User admin@team13.com switched role to Kumar Gowda (office_staff)",
+                                   "timestamp":  "2026-10-30T19:57:13.949Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793389317758-484",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_EXIT",
+                                   "affected_resource":  "Developer Console",
+                                   "details":  "Developer exited evaluation simulation mode and returned to Super Admin dashboard",
+                                   "timestamp":  "2026-10-30T19:41:57.758Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793389317445-706",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_START",
+                                   "affected_resource":  "asha@team1.com",
+                                   "details":  "User admin@team13.com switched role to Asha Kumar (student)",
+                                   "timestamp":  "2026-10-30T19:41:57.445Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793389316785-130",
+                                   "developer_id":  "student@team1.com",
+                                   "action":  "ROLE_SIMULATION_START",
+                                   "affected_resource":  "kumar@team1.com",
+                                   "details":  "User student@team1.com switched role to Kumar Gowda (office_staff)",
+                                   "timestamp":  "2026-10-30T19:41:56.785Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793389313163-932",
+                                   "developer_id":  "admin@t4.com",
+                                   "action":  "DEVELOPER_LOGIN",
+                                   "affected_resource":  "Authentication",
+                                   "details":  "Super Admin admin@t4.com authenticated",
+                                   "timestamp":  "2026-10-30T19:41:53.163Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793389301746-403",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_EXIT",
+                                   "affected_resource":  "Developer Console",
+                                   "details":  "Developer exited evaluation simulation mode and returned to Super Admin dashboard",
+                                   "timestamp":  "2026-10-30T19:41:41.746Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793389301462-493",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_START",
+                                   "affected_resource":  "asha@team1.com",
+                                   "details":  "User admin@team13.com switched role to Asha Kumar (student)",
+                                   "timestamp":  "2026-10-30T19:41:41.462Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793389300664-753",
+                                   "developer_id":  "student@team1.com",
+                                   "action":  "ROLE_SIMULATION_START",
+                                   "affected_resource":  "kumar@team1.com",
+                                   "details":  "User student@team1.com switched role to Kumar Gowda (office_staff)",
+                                   "timestamp":  "2026-10-30T19:41:40.664Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793389297701-742",
+                                   "developer_id":  "admin@t4.com",
+                                   "action":  "DEVELOPER_LOGIN",
+                                   "affected_resource":  "Authentication",
+                                   "details":  "Super Admin admin@t4.com authenticated",
+                                   "timestamp":  "2026-10-30T19:41:37.701Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793389285732-601",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_EXIT",
+                                   "affected_resource":  "Developer Console",
+                                   "details":  "Developer exited evaluation simulation mode and returned to Super Admin dashboard",
+                                   "timestamp":  "2026-10-30T19:41:25.732Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793389285431-102",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_START",
+                                   "affected_resource":  "asha@team1.com",
+                                   "details":  "User admin@team13.com switched role to Asha Kumar (student)",
+                                   "timestamp":  "2026-10-30T19:41:25.431Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793389285261-35",
+                                   "developer_id":  "student@team1.com",
+                                   "action":  "ROLE_SIMULATION_START",
+                                   "affected_resource":  "kumar@team1.com",
+                                   "details":  "User student@team1.com switched role to Kumar Gowda (office_staff)",
+                                   "timestamp":  "2026-10-30T19:41:25.261Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793389281539-422",
+                                   "developer_id":  "admin@t4.com",
+                                   "action":  "DEVELOPER_LOGIN",
+                                   "affected_resource":  "Authentication",
+                                   "details":  "Super Admin admin@t4.com authenticated",
+                                   "timestamp":  "2026-10-30T19:41:21.539Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793389262214-18",
+                                   "developer_id":  "student@team1.com",
+                                   "action":  "ROLE_SIMULATION_START",
+                                   "affected_resource":  "kumar@team1.com",
+                                   "details":  "User student@team1.com switched role to Kumar Gowda (office_staff)",
+                                   "timestamp":  "2026-10-30T19:41:02.214Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793389262187-435",
+                                   "developer_id":  "student@team1.com",
+                                   "action":  "ROLE_SIMULATION_START",
+                                   "affected_resource":  "kumar@team1.com",
+                                   "details":  "User student@team1.com switched role to Kumar Gowda (office_staff)",
+                                   "timestamp":  "2026-10-30T19:41:02.187Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793389262060-950",
+                                   "developer_id":  "student@team1.com",
+                                   "action":  "ROLE_SIMULATION_START",
+                                   "affected_resource":  "kumar@team1.com",
+                                   "details":  "User student@team1.com switched role to Kumar Gowda (office_staff)",
+                                   "timestamp":  "2026-10-30T19:41:02.060Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793389222845-969",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_EXIT",
+                                   "affected_resource":  "Developer Console",
+                                   "details":  "Developer exited evaluation simulation mode and returned to Super Admin dashboard",
+                                   "timestamp":  "2026-10-30T19:40:22.845Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793389222630-21",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_START",
+                                   "affected_resource":  "asha@team1.com",
+                                   "details":  "User admin@team13.com switched role to Asha Kumar (student)",
+                                   "timestamp":  "2026-10-30T19:40:22.630Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793389218088-861",
+                                   "developer_id":  "admin@t4.com",
+                                   "action":  "DEVELOPER_LOGIN",
+                                   "affected_resource":  "Authentication",
+                                   "details":  "Super Admin admin@t4.com authenticated",
+                                   "timestamp":  "2026-10-30T19:40:18.088Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793389207307-631",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_EXIT",
+                                   "affected_resource":  "Developer Console",
+                                   "details":  "Developer exited evaluation simulation mode and returned to Super Admin dashboard",
+                                   "timestamp":  "2026-10-30T19:40:07.307Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793389207000-766",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_START",
+                                   "affected_resource":  "asha@team1.com",
+                                   "details":  "User admin@team13.com switched role to Asha Kumar (student)",
+                                   "timestamp":  "2026-10-30T19:40:07.000Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793389202427-429",
+                                   "developer_id":  "admin@t4.com",
+                                   "action":  "DEVELOPER_LOGIN",
+                                   "affected_resource":  "Authentication",
+                                   "details":  "Super Admin admin@t4.com authenticated",
+                                   "timestamp":  "2026-10-30T19:40:02.427Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793389188861-535",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_EXIT",
+                                   "affected_resource":  "Developer Console",
+                                   "details":  "Developer exited evaluation simulation mode and returned to Super Admin dashboard",
+                                   "timestamp":  "2026-10-30T19:39:48.861Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793389188388-788",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_START",
+                                   "affected_resource":  "asha@team1.com",
+                                   "details":  "User admin@team13.com switched role to Asha Kumar (student)",
+                                   "timestamp":  "2026-10-30T19:39:48.388Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793389187035-223",
+                                   "developer_id":  "admin@t4.com",
+                                   "action":  "DEVELOPER_LOGIN",
+                                   "affected_resource":  "Authentication",
+                                   "details":  "Super Admin admin@t4.com authenticated",
+                                   "timestamp":  "2026-10-30T19:39:47.035Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793388298692-425",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_START",
+                                   "affected_resource":  "asha@team1.com",
+                                   "details":  "Developer admin@team13.com started evaluation simulation as Asha Kumar (student)",
+                                   "timestamp":  "2026-10-30T19:24:58.692Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793388180724-746",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_EXIT",
+                                   "affected_resource":  "Developer Console",
+                                   "details":  "Developer exited evaluation simulation mode and returned to Super Admin dashboard",
+                                   "timestamp":  "2026-10-30T19:23:00.724Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793388180377-598",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_START",
+                                   "affected_resource":  "asha@team1.com",
+                                   "details":  "Developer admin@team13.com started evaluation simulation as Asha Kumar (student)",
+                                   "timestamp":  "2026-10-30T19:23:00.377Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793388180171-234",
+                                   "developer_id":  "Bearer",
+                                   "action":  "SECURITY_VIOLATION_BLOCKED",
+                                   "affected_resource":  "Role Simulation",
+                                   "details":  "Unauthorized role simulation attempt blocked",
+                                   "timestamp":  "2026-10-30T19:23:00.171Z",
+                                   "result":  "FAILED"
+                               },
+                               {
+                                   "id":  "act-1793388176777-648",
+                                   "developer_id":  "admin@t4.com",
+                                   "action":  "DEVELOPER_LOGIN",
+                                   "affected_resource":  "Authentication",
+                                   "details":  "Super Admin admin@t4.com authenticated",
+                                   "timestamp":  "2026-10-30T19:22:56.777Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793388163540-777",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_EXIT",
+                                   "affected_resource":  "Developer Console",
+                                   "details":  "Developer exited evaluation simulation mode and returned to Super Admin dashboard",
+                                   "timestamp":  "2026-10-30T19:22:43.540Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793388163120-438",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_START",
+                                   "affected_resource":  "asha@team1.com",
+                                   "details":  "Developer admin@team13.com started evaluation simulation as Asha Kumar (student)",
+                                   "timestamp":  "2026-10-30T19:22:43.120Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793388162274-192",
+                                   "developer_id":  "Bearer",
+                                   "action":  "SECURITY_VIOLATION_BLOCKED",
+                                   "affected_resource":  "Role Simulation",
+                                   "details":  "Unauthorized role simulation attempt blocked",
+                                   "timestamp":  "2026-10-30T19:22:42.274Z",
+                                   "result":  "FAILED"
+                               },
+                               {
+                                   "id":  "act-1793388158288-351",
+                                   "developer_id":  "admin@t4.com",
+                                   "action":  "DEVELOPER_LOGIN",
+                                   "affected_resource":  "Authentication",
+                                   "details":  "Super Admin admin@t4.com authenticated",
+                                   "timestamp":  "2026-10-30T19:22:38.288Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793388146791-559",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_EXIT",
+                                   "affected_resource":  "Developer Console",
+                                   "details":  "Developer exited evaluation simulation mode and returned to Super Admin dashboard",
+                                   "timestamp":  "2026-10-30T19:22:26.792Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793388146527-961",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_START",
+                                   "affected_resource":  "asha@team1.com",
+                                   "details":  "Developer admin@team13.com started evaluation simulation as Asha Kumar (student)",
+                                   "timestamp":  "2026-10-30T19:22:26.527Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793388145223-935",
+                                   "developer_id":  "Bearer",
+                                   "action":  "SECURITY_VIOLATION_BLOCKED",
+                                   "affected_resource":  "Role Simulation",
+                                   "details":  "Unauthorized role simulation attempt blocked",
+                                   "timestamp":  "2026-10-30T19:22:25.223Z",
+                                   "result":  "FAILED"
+                               },
+                               {
+                                   "id":  "act-1793388144713-663",
+                                   "developer_id":  "admin@t4.com",
+                                   "action":  "DEVELOPER_LOGIN",
+                                   "affected_resource":  "Authentication",
+                                   "details":  "Super Admin admin@t4.com authenticated",
+                                   "timestamp":  "2026-10-30T19:22:24.713Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793387850235-329",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_START",
+                                   "affected_resource":  "meera@team1.com",
+                                   "details":  "Developer admin@team13.com started evaluation simulation as Dr. Meera Rao (faculty)",
+                                   "timestamp":  "2026-10-30T19:17:30.235Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793387823976-375",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_START",
+                                   "affected_resource":  "asha@team1.com",
+                                   "details":  "Developer admin@team13.com started evaluation simulation as Asha Kumar (student)",
+                                   "timestamp":  "2026-10-30T19:17:03.976Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793387705548-911",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_START",
+                                   "affected_resource":  "kumar@team1.com",
+                                   "details":  "Developer admin@team13.com started evaluation simulation as Kumar Gowda (office_staff)",
+                                   "timestamp":  "2026-10-30T19:15:05.548Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793387505318-680",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_EXIT",
+                                   "affected_resource":  "Developer Console",
+                                   "details":  "Developer exited evaluation simulation mode and returned to Super Admin dashboard",
+                                   "timestamp":  "2026-10-30T19:11:45.318Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793387505025-518",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_START",
+                                   "affected_resource":  "asha@team1.com",
+                                   "details":  "Developer admin@team13.com started evaluation simulation as Asha Kumar (student)",
+                                   "timestamp":  "2026-10-30T19:11:45.025Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793387504604-664",
+                                   "developer_id":  "Bearer",
+                                   "action":  "SECURITY_VIOLATION_BLOCKED",
+                                   "affected_resource":  "Role Simulation",
+                                   "details":  "Unauthorized role simulation attempt blocked",
+                                   "timestamp":  "2026-10-30T19:11:44.604Z",
+                                   "result":  "FAILED"
+                               },
+                               {
+                                   "id":  "act-1793387500497-466",
+                                   "developer_id":  "admin@t4.com",
+                                   "action":  "DEVELOPER_LOGIN",
+                                   "affected_resource":  "Authentication",
+                                   "details":  "Super Admin admin@t4.com authenticated",
+                                   "timestamp":  "2026-10-30T19:11:40.497Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793387488770-479",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_EXIT",
+                                   "affected_resource":  "Developer Console",
+                                   "details":  "Developer exited evaluation simulation mode and returned to Super Admin dashboard",
+                                   "timestamp":  "2026-10-30T19:11:28.770Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793387488478-991",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_START",
+                                   "affected_resource":  "asha@team1.com",
+                                   "details":  "Developer admin@team13.com started evaluation simulation as Asha Kumar (student)",
+                                   "timestamp":  "2026-10-30T19:11:28.478Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793387488129-277",
+                                   "developer_id":  "Bearer",
+                                   "action":  "SECURITY_VIOLATION_BLOCKED",
+                                   "affected_resource":  "Role Simulation",
+                                   "details":  "Unauthorized role simulation attempt blocked",
+                                   "timestamp":  "2026-10-30T19:11:28.129Z",
+                                   "result":  "FAILED"
+                               },
+                               {
+                                   "id":  "act-1793387484836-631",
+                                   "developer_id":  "admin@t4.com",
+                                   "action":  "DEVELOPER_LOGIN",
+                                   "affected_resource":  "Authentication",
+                                   "details":  "Super Admin admin@t4.com authenticated",
+                                   "timestamp":  "2026-10-30T19:11:24.836Z",
+                                   "result":  "SUCCESS"
+                               },
+                               {
+                                   "id":  "act-1793387472786-18",
+                                   "developer_id":  "admin@team13.com",
+                                   "action":  "ROLE_SIMULATION_EXIT",
+                                   "affected_resource":  "Developer Console",
+                                   "details":  "Developer exited evaluation simulation mode and returned to Super Admin dashboard",
+                                   "timestamp":  "2026-10-30T19:11:12.786Z",
+                                   "result":  "SUCCESS"
+                               }
+                           ],
+    "security_logs":  [
+                          {
+                              "id":  "sec-1",
+                              "user_agent":  "Chrome / Antigravity Webkit Engine",
+                              "timestamp":  "2026-10-30T21:45:00Z",
+                              "ip":  "127.0.0.1",
+                              "user":  "admin@team13.com",
+                              "event":  "DEVELOPER_LOGIN",
+                              "status":  "SUCCESS"
+                          },
+                          {
+                              "id":  "sec-2",
+                              "user_agent":  "Super Admin Dev Session",
+                              "timestamp":  "2026-10-30T21:45:05Z",
+                              "ip":  "127.0.0.1",
+                              "user":  "admin@team13.com",
+                              "event":  "SESSION_VALIDATED",
+                              "status":  "SUCCESS"
+                          }
+                      ],
+    "database_backups":  [
+                             {
+                                 "id":  "bkp-1793383283298",
+                                 "name":  "Manual Snapshot Oct 30, 11:31 PM",
+                                 "created_at":  "2026-10-30T18:01:23.313Z",
+                                 "record_count":  27,
+                                 "file_size":  "29.2 KB",
+                                 "status":  "available"
+                             },
+                             {
+                                 "id":  "bkp-1793380750239",
+                                 "name":  "Manual Snapshot Oct 30, 10:49 PM",
+                                 "created_at":  "2026-10-30T17:19:10.252Z",
+                                 "record_count":  27,
+                                 "file_size":  "15.8 KB",
+                                 "status":  "available"
+                             },
+                             {
+                                 "id":  "bkp-1",
+                                 "name":  "Daily Automated Snapshot (Pre-Developer Console)",
+                                 "record_count":  46,
+                                 "created_at":  "2026-10-30T18:00:00Z",
+                                 "file_size":  "18.4 KB",
+                                 "status":  "available"
+                             }
+                         ],
+    "developer_config":  {
+                             "role_simulation_enabled":  true
+                         },
+    "active_simulations":  {
+                               "tok_sim_asha%40team1.com_0ef2fd7e-8177-46c2-a703-be31a54da286":  {
+                                                                                                     "token":  "tok_sim_asha%40team1.com_0ef2fd7e-8177-46c2-a703-be31a54da286",
+                                                                                                     "email_id":  "asha@team1.com",
+                                                                                                     "role":  "student",
+                                                                                                     "simulated_by":  "admin@team13.com",
+                                                                                                     "created_at":  "2026-10-30T18:16:28.037Z"
+                                                                                                 },
+                               "tok_sim_kumar%40team1.com_98e3871e-5fb4-4876-9b8b-d972a164c007":  {
+                                                                                                      "token":  "tok_sim_kumar%40team1.com_98e3871e-5fb4-4876-9b8b-d972a164c007",
+                                                                                                      "email_id":  "kumar@team1.com",
+                                                                                                      "role":  "office_staff",
+                                                                                                      "simulated_by":  "admin@team13.com",
+                                                                                                      "created_at":  "2026-10-30T19:15:05.548Z"
+                                                                                                  },
+                               "tok_sim_asha%40team1.com_2424cbe7-9f71-4def-a16b-2ddff48caa3a":  {
+                                                                                                     "token":  "tok_sim_asha%40team1.com_2424cbe7-9f71-4def-a16b-2ddff48caa3a",
+                                                                                                     "email_id":  "asha@team1.com",
+                                                                                                     "role":  "student",
+                                                                                                     "simulated_by":  "admin@team13.com",
+                                                                                                     "created_at":  "2026-10-30T19:17:03.976Z"
+                                                                                                 },
+                               "tok_sim_meera%40team1.com_be57f967-3548-4717-b810-2e5fd7ef4418":  {
+                                                                                                      "token":  "tok_sim_meera%40team1.com_be57f967-3548-4717-b810-2e5fd7ef4418",
+                                                                                                      "email_id":  "meera@team1.com",
+                                                                                                      "role":  "faculty",
+                                                                                                      "simulated_by":  "admin@team13.com",
+                                                                                                      "created_at":  "2026-10-30T19:17:30.234Z"
+                                                                                                  },
+                               "tok_sim_asha%40team1.com_279da05f-abf3-4790-a055-ff65053608f7":  {
+                                                                                                     "token":  "tok_sim_asha%40team1.com_279da05f-abf3-4790-a055-ff65053608f7",
+                                                                                                     "email_id":  "asha@team1.com",
+                                                                                                     "role":  "student",
+                                                                                                     "simulated_by":  "admin@team13.com",
+                                                                                                     "created_at":  "2026-10-30T19:24:58.692Z"
+                                                                                                 },
+                               "tok_sim_kumar%40team1.com_11c9319b-7fa4-4a1e-95f3-0d45205f4e7c":  {
+                                                                                                      "token":  "tok_sim_kumar%40team1.com_11c9319b-7fa4-4a1e-95f3-0d45205f4e7c",
+                                                                                                      "email_id":  "kumar@team1.com",
+                                                                                                      "role":  "office_staff",
+                                                                                                      "simulated_by":  "student@team1.com",
+                                                                                                      "created_at":  "2026-10-30T19:41:02.060Z"
+                                                                                                  },
+                               "tok_sim_kumar%40team1.com_591a0169-bf00-4b06-8e3d-e0e802fd495e":  {
+                                                                                                      "token":  "tok_sim_kumar%40team1.com_591a0169-bf00-4b06-8e3d-e0e802fd495e",
+                                                                                                      "email_id":  "kumar@team1.com",
+                                                                                                      "role":  "office_staff",
+                                                                                                      "simulated_by":  "student@team1.com",
+                                                                                                      "created_at":  "2026-10-30T19:41:02.187Z"
+                                                                                                  },
+                               "tok_sim_kumar%40team1.com_3caf9415-821c-4c70-a6e5-c7aaca08edee":  {
+                                                                                                      "token":  "tok_sim_kumar%40team1.com_3caf9415-821c-4c70-a6e5-c7aaca08edee",
+                                                                                                      "email_id":  "kumar@team1.com",
+                                                                                                      "role":  "office_staff",
+                                                                                                      "simulated_by":  "student@team1.com",
+                                                                                                      "created_at":  "2026-10-30T19:41:02.214Z"
+                                                                                                  },
+                               "tok_sim_kumar%40team1.com_0c764f9a-3fe6-4ad8-89d4-03654051cbb8":  {
+                                                                                                      "token":  "tok_sim_kumar%40team1.com_0c764f9a-3fe6-4ad8-89d4-03654051cbb8",
+                                                                                                      "email_id":  "kumar@team1.com",
+                                                                                                      "role":  "office_staff",
+                                                                                                      "simulated_by":  "student@team1.com",
+                                                                                                      "created_at":  "2026-10-30T19:41:25.261Z"
+                                                                                                  },
+                               "tok_sim_kumar%40team1.com_162f58f1-8649-48cc-accc-b6004d8626fa":  {
+                                                                                                      "token":  "tok_sim_kumar%40team1.com_162f58f1-8649-48cc-accc-b6004d8626fa",
+                                                                                                      "email_id":  "kumar@team1.com",
+                                                                                                      "role":  "office_staff",
+                                                                                                      "simulated_by":  "student@team1.com",
+                                                                                                      "created_at":  "2026-10-30T19:41:40.664Z"
+                                                                                                  },
+                               "tok_sim_kumar%40team1.com_e6d215aa-b41e-4765-9340-228d839b8173":  {
+                                                                                                      "token":  "tok_sim_kumar%40team1.com_e6d215aa-b41e-4765-9340-228d839b8173",
+                                                                                                      "email_id":  "kumar@team1.com",
+                                                                                                      "role":  "office_staff",
+                                                                                                      "simulated_by":  "student@team1.com",
+                                                                                                      "created_at":  "2026-10-30T19:41:56.785Z"
+                                                                                                  },
+                               "tok_sim_kumar%40team1.com_087c58d5-2eac-401a-9593-b806d6d138fb":  {
+                                                                                                      "token":  "tok_sim_kumar%40team1.com_087c58d5-2eac-401a-9593-b806d6d138fb",
+                                                                                                      "email_id":  "kumar@team1.com",
+                                                                                                      "role":  "office_staff",
+                                                                                                      "simulated_by":  "admin@team13.com",
+                                                                                                      "created_at":  "2026-10-30T19:57:13.949Z"
+                                                                                                  },
+                               "tok_sim_asha%40team1.com_006848ce-decc-4712-a928-cb2648c1a49d":  {
+                                                                                                     "token":  "tok_sim_asha%40team1.com_006848ce-decc-4712-a928-cb2648c1a49d",
+                                                                                                     "email_id":  "asha@team1.com",
+                                                                                                     "role":  "student",
+                                                                                                     "simulated_by":  "admin@team13.com",
+                                                                                                     "created_at":  "2026-10-30T19:59:55.477Z"
+                                                                                                 },
+                               "tok_sim_kumar%40team1.com_6b018fc0-cdf7-4cfb-8f56-ad329190f920":  {
+                                                                                                      "token":  "tok_sim_kumar%40team1.com_6b018fc0-cdf7-4cfb-8f56-ad329190f920",
+                                                                                                      "email_id":  "kumar@team1.com",
+                                                                                                      "role":  "office_staff",
+                                                                                                      "simulated_by":  "asha@team1.com",
+                                                                                                      "created_at":  "2026-10-30T19:59:57.202Z"
+                                                                                                  },
+                               "tok_sim_meera%40team1.com_67e82f8f-34e2-4e8b-82e0-2d5600ff8661":  {
+                                                                                                      "token":  "tok_sim_meera%40team1.com_67e82f8f-34e2-4e8b-82e0-2d5600ff8661",
+                                                                                                      "email_id":  "meera@team1.com",
+                                                                                                      "role":  "faculty",
+                                                                                                      "simulated_by":  "kumar@team1.com",
+                                                                                                      "created_at":  "2026-10-30T19:59:58.954Z"
+                                                                                                  },
+                               "tok_sim_manager%40team1.com_f6cd6b62-e934-49e7-8e13-900f707254e3":  {
+                                                                                                        "token":  "tok_sim_manager%40team1.com_f6cd6b62-e934-49e7-8e13-900f707254e3",
+                                                                                                        "email_id":  "manager@team1.com",
+                                                                                                        "role":  "campus_manager",
+                                                                                                        "simulated_by":  "meera@team1.com",
+                                                                                                        "created_at":  "2026-10-30T20:00:03.301Z"
+                                                                                                    },
+                               "tok_sim_kumar%40team1.com_aca119c1-c5dc-4ff0-9320-79b5949558e1":  {
+                                                                                                      "token":  "tok_sim_kumar%40team1.com_aca119c1-c5dc-4ff0-9320-79b5949558e1",
+                                                                                                      "email_id":  "kumar@team1.com",
+                                                                                                      "role":  "office_staff",
+                                                                                                      "simulated_by":  "student@team1.com",
+                                                                                                      "created_at":  "2026-10-30T20:13:34.315Z"
+                                                                                                  },
+                               "tok_sim_kumar%40team1.com_61c3e653-36ca-4275-9317-95fb7ea910ae":  {
+                                                                                                      "token":  "tok_sim_kumar%40team1.com_61c3e653-36ca-4275-9317-95fb7ea910ae",
+                                                                                                      "email_id":  "kumar@team1.com",
+                                                                                                      "role":  "office_staff",
+                                                                                                      "simulated_by":  "student@team1.com",
+                                                                                                      "created_at":  "2026-10-30T20:14:09.207Z"
+                                                                                                  },
+                               "tok_sim_kumar%40team1.com_f1497ad8-b929-4780-b612-a854d9c11524":  {
+                                                                                                      "token":  "tok_sim_kumar%40team1.com_f1497ad8-b929-4780-b612-a854d9c11524",
+                                                                                                      "email_id":  "kumar@team1.com",
+                                                                                                      "role":  "office_staff",
+                                                                                                      "simulated_by":  "student@team1.com",
+                                                                                                      "created_at":  "2026-10-30T20:15:37.824Z"
+                                                                                                  },
+                               "tok_sim_kumar%40team1.com_36f029bc-d2a3-4fd2-859f-dbaa7f1eaf0a":  {
+                                                                                                      "token":  "tok_sim_kumar%40team1.com_36f029bc-d2a3-4fd2-859f-dbaa7f1eaf0a",
+                                                                                                      "email_id":  "kumar@team1.com",
+                                                                                                      "role":  "office_staff",
+                                                                                                      "simulated_by":  "student@team1.com",
+                                                                                                      "created_at":  "2026-10-30T20:15:48.561Z"
+                                                                                                  },
+                               "tok_sim_kumar%40team1.com_4feba282-1279-48a7-ab03-11e3fb3d10a2":  {
+                                                                                                      "token":  "tok_sim_kumar%40team1.com_4feba282-1279-48a7-ab03-11e3fb3d10a2",
+                                                                                                      "email_id":  "kumar@team1.com",
+                                                                                                      "role":  "office_staff",
+                                                                                                      "simulated_by":  "student@team1.com",
+                                                                                                      "created_at":  "2026-10-30T20:15:57.230Z"
+                                                                                                  },
+                               "tok_sim_kumar%40team1.com_ca6626e9-93f9-4eed-8046-a1329bb20c57":  {
+                                                                                                      "token":  "tok_sim_kumar%40team1.com_ca6626e9-93f9-4eed-8046-a1329bb20c57",
+                                                                                                      "email_id":  "kumar@team1.com",
+                                                                                                      "role":  "office_staff",
+                                                                                                      "simulated_by":  "student@team1.com",
+                                                                                                      "created_at":  "2026-10-30T20:16:50.996Z"
+                                                                                                  },
+                               "tok_sim_kumar%40team1.com_4af77247-d9bd-4673-8b77-ad2accce8d5e":  {
+                                                                                                      "token":  "tok_sim_kumar%40team1.com_4af77247-d9bd-4673-8b77-ad2accce8d5e",
+                                                                                                      "email_id":  "kumar@team1.com",
+                                                                                                      "role":  "office_staff",
+                                                                                                      "simulated_by":  "student@team1.com",
+                                                                                                      "created_at":  "2026-10-30T20:17:11.935Z"
+                                                                                                  },
+                               "tok_sim_kumar%40team1.com_3502c1e0-3cb4-4327-aeec-9c16ded9b0d6":  {
+                                                                                                      "token":  "tok_sim_kumar%40team1.com_3502c1e0-3cb4-4327-aeec-9c16ded9b0d6",
+                                                                                                      "email_id":  "kumar@team1.com",
+                                                                                                      "role":  "office_staff",
+                                                                                                      "simulated_by":  "student@team1.com",
+                                                                                                      "created_at":  "2026-10-30T20:17:36.862Z"
+                                                                                                  }
+                           },
+    "active_developer_sessions":  {
+                                      "dev_adm_8f5a5ff9ec3a067dfd492378748289270bc03825c53e8d8738edb0128f65c564":  {
+                                                                                                                       "email_id":  "superadmin.team13@gmail.com",
+                                                                                                                       "name":  "Developer Super Admin",
+                                                                                                                       "role":  "developer",
+                                                                                                                       "created_at":  "2026-10-30T18:47:36.961Z",
+                                                                                                                       "expires_at":  "2026-10-31T18:47:36.961Z"
+                                                                                                                   },
+                                      "dev_adm_102ddb4856677a88e4152fdc4a8dea61250f75054acd38f4feb616f4b8bcb165":  {
+                                                                                                                       "email_id":  "admin@t4.com",
+                                                                                                                       "name":  "Super Admin T4",
+                                                                                                                       "role":  "developer",
+                                                                                                                       "created_at":  "2026-10-30T19:05:38.104Z",
+                                                                                                                       "expires_at":  "2026-10-31T19:05:38.104Z"
+                                                                                                                   },
+                                      "dev_adm_9e299ead3b7daeebf95b337a982ebb8f9eae660c66c6352a71302103c2b9e286":  {
+                                                                                                                       "email_id":  "admin@t4.com",
+                                                                                                                       "name":  "Super Admin T4",
+                                                                                                                       "role":  "developer",
+                                                                                                                       "created_at":  "2026-10-30T19:08:37.712Z",
+                                                                                                                       "expires_at":  "2026-10-31T19:08:37.712Z"
+                                                                                                                   },
+                                      "dev_adm_378cf483b42d3aa3768166490585c3f2ef61dcf833a3be4fe689cf002035369f":  {
+                                                                                                                       "email_id":  "admin@t4.com",
+                                                                                                                       "name":  "Super Admin T4",
+                                                                                                                       "role":  "developer",
+                                                                                                                       "created_at":  "2026-10-30T19:10:31.922Z",
+                                                                                                                       "expires_at":  "2026-10-31T19:10:31.922Z"
+                                                                                                                   },
+                                      "dev_adm_49035210f1f00005178691444e4d8db373e7f9d5b2cc5017cd7f0905aad6a12d":  {
+                                                                                                                       "email_id":  "admin@t4.com",
+                                                                                                                       "name":  "Super Admin T4",
+                                                                                                                       "role":  "developer",
+                                                                                                                       "created_at":  "2026-10-30T19:10:38.147Z",
+                                                                                                                       "expires_at":  "2026-10-31T19:10:38.147Z"
+                                                                                                                   },
+                                      "dev_adm_cdca02028ed2f4b1366803ed26a1b98fc1f3bbf5703b871a548ec414056ff3cf":  {
+                                                                                                                       "email_id":  "admin@t4.com",
+                                                                                                                       "name":  "Super Admin T4",
+                                                                                                                       "role":  "developer",
+                                                                                                                       "created_at":  "2026-10-30T19:10:47.855Z",
+                                                                                                                       "expires_at":  "2026-10-31T19:10:47.855Z"
+                                                                                                                   },
+                                      "dev_adm_959b2eb91e8a317ef186ddf8c51db5da2ca9839fca0b21860c400f19a1869b40":  {
+                                                                                                                       "email_id":  "admin@t4.com",
+                                                                                                                       "name":  "Super Admin T4",
+                                                                                                                       "role":  "developer",
+                                                                                                                       "created_at":  "2026-10-30T19:11:08.620Z",
+                                                                                                                       "expires_at":  "2026-10-31T19:11:08.620Z"
+                                                                                                                   },
+                                      "dev_adm_29405c8fa0b58e96d7daf311e82ddf0b7e2403d581891582f0fef0ddf3768edc":  {
+                                                                                                                       "email_id":  "admin@t4.com",
+                                                                                                                       "name":  "Super Admin T4",
+                                                                                                                       "role":  "developer",
+                                                                                                                       "created_at":  "2026-10-30T19:11:24.835Z",
+                                                                                                                       "expires_at":  "2026-10-31T19:11:24.835Z"
+                                                                                                                   },
+                                      "dev_adm_632416a95a148c2fd5e7d6c86644e0b0c85979b17a6e9cb09e1660aa2fafb00b":  {
+                                                                                                                       "email_id":  "admin@t4.com",
+                                                                                                                       "name":  "Super Admin T4",
+                                                                                                                       "role":  "developer",
+                                                                                                                       "created_at":  "2026-10-30T19:11:40.496Z",
+                                                                                                                       "expires_at":  "2026-10-31T19:11:40.496Z"
+                                                                                                                   },
+                                      "dev_adm_af5fe9b564ee13476adc64c5bb1cbb164c6e0d1e97d53adac8c64e41d23ac84e":  {
+                                                                                                                       "email_id":  "admin@t4.com",
+                                                                                                                       "name":  "Super Admin T4",
+                                                                                                                       "role":  "developer",
+                                                                                                                       "created_at":  "2026-10-30T19:22:24.712Z",
+                                                                                                                       "expires_at":  "2026-10-31T19:22:24.712Z"
+                                                                                                                   },
+                                      "dev_adm_fd650a0f71ac39266c9659d1a3436c65ef0c0039e9ef9353a5760b09a14add9c":  {
+                                                                                                                       "email_id":  "admin@t4.com",
+                                                                                                                       "name":  "Super Admin T4",
+                                                                                                                       "role":  "developer",
+                                                                                                                       "created_at":  "2026-10-30T19:22:38.286Z",
+                                                                                                                       "expires_at":  "2026-10-31T19:22:38.286Z"
+                                                                                                                   },
+                                      "dev_adm_9ec538b01d635ed5dcd484f3c4d6b749338c51e9b63ff34feb50c25fbfe0d630":  {
+                                                                                                                       "email_id":  "admin@t4.com",
+                                                                                                                       "name":  "Super Admin T4",
+                                                                                                                       "role":  "developer",
+                                                                                                                       "created_at":  "2026-10-30T19:22:56.776Z",
+                                                                                                                       "expires_at":  "2026-10-31T19:22:56.776Z"
+                                                                                                                   },
+                                      "dev_adm_550db7a3f3f0c809f6ba9b635f89c7577b8baf736087babdbf7d772c2d37efa0":  {
+                                                                                                                       "email_id":  "admin@t4.com",
+                                                                                                                       "name":  "Super Admin T4",
+                                                                                                                       "role":  "developer",
+                                                                                                                       "created_at":  "2026-10-30T19:39:47.034Z",
+                                                                                                                       "expires_at":  "2026-10-31T19:39:47.034Z"
+                                                                                                                   },
+                                      "dev_adm_252cf2ce100b84c6637ef62d92fe5cf07e9e4ccd032be2d63fc7b546228a3572":  {
+                                                                                                                       "email_id":  "admin@t4.com",
+                                                                                                                       "name":  "Super Admin T4",
+                                                                                                                       "role":  "developer",
+                                                                                                                       "created_at":  "2026-10-30T19:40:02.426Z",
+                                                                                                                       "expires_at":  "2026-10-31T19:40:02.426Z"
+                                                                                                                   },
+                                      "dev_adm_8e62c005fafaf76fa6a1762e3101b4c827802caa5968041b9b03904470df2370":  {
+                                                                                                                       "email_id":  "admin@t4.com",
+                                                                                                                       "name":  "Super Admin T4",
+                                                                                                                       "role":  "developer",
+                                                                                                                       "created_at":  "2026-10-30T19:40:18.087Z",
+                                                                                                                       "expires_at":  "2026-10-31T19:40:18.087Z"
+                                                                                                                   },
+                                      "dev_adm_882f762dedcfcfb713600448f605addf10bbcfef0cdb10b9d52de5626bd4acf1":  {
+                                                                                                                       "email_id":  "admin@t4.com",
+                                                                                                                       "name":  "Super Admin T4",
+                                                                                                                       "role":  "developer",
+                                                                                                                       "created_at":  "2026-10-30T19:41:21.538Z",
+                                                                                                                       "expires_at":  "2026-10-31T19:41:21.538Z"
+                                                                                                                   },
+                                      "dev_adm_ac3f603a5058ed04769b4526c188775aeed02e91ef7e3fb6a0d0f2ac41a057bd":  {
+                                                                                                                       "email_id":  "admin@t4.com",
+                                                                                                                       "name":  "Super Admin T4",
+                                                                                                                       "role":  "developer",
+                                                                                                                       "created_at":  "2026-10-30T19:41:37.700Z",
+                                                                                                                       "expires_at":  "2026-10-31T19:41:37.700Z"
+                                                                                                                   },
+                                      "dev_adm_f06cdd8bb94f246f284a30db49d3ca656e2481e97947592a867eba821ac70343":  {
+                                                                                                                       "email_id":  "admin@t4.com",
+                                                                                                                       "name":  "Super Admin T4",
+                                                                                                                       "role":  "developer",
+                                                                                                                       "created_at":  "2026-10-30T19:41:53.161Z",
+                                                                                                                       "expires_at":  "2026-10-31T19:41:53.161Z"
+                                                                                                                   },
+                                      "dev_adm_a0441b62637dd75cbf87ab91f0ca372daa96472f53ff3092fd83be9394ecf896":  {
+                                                                                                                       "email_id":  "admin@t4.com",
+                                                                                                                       "name":  "Super Admin T4",
+                                                                                                                       "role":  "developer",
+                                                                                                                       "created_at":  "2026-10-30T20:09:12.606Z",
+                                                                                                                       "expires_at":  "2026-10-31T20:09:12.606Z"
+                                                                                                                   },
+                                      "dev_adm_2772ae5aa12402f75860706ae8ba7310f93a80a5c92520d66a59d301330e7441":  {
+                                                                                                                       "email_id":  "admin@t4.com",
+                                                                                                                       "name":  "Super Admin T4",
+                                                                                                                       "role":  "developer",
+                                                                                                                       "created_at":  "2026-10-30T20:09:27.304Z",
+                                                                                                                       "expires_at":  "2026-10-31T20:09:27.304Z"
+                                                                                                                   },
+                                      "dev_adm_f20148621de44600c1701b546fd9f5a81507fe11c9734d1ca3ebc5e880aa98e2":  {
+                                                                                                                       "email_id":  "admin@t4.com",
+                                                                                                                       "name":  "Super Admin T4",
+                                                                                                                       "role":  "developer",
+                                                                                                                       "created_at":  "2026-10-30T20:09:42.515Z",
+                                                                                                                       "expires_at":  "2026-10-31T20:09:42.515Z"
+                                                                                                                   },
+                                      "dev_adm_8449c7c5e6a4397e090fbea0b7a8462ded8d6c82afca73a8e121ca945d3f4074":  {
+                                                                                                                       "email_id":  "admin@t4.com",
+                                                                                                                       "name":  "Super Admin T4",
+                                                                                                                       "role":  "developer",
+                                                                                                                       "created_at":  "2026-10-30T20:16:47.523Z",
+                                                                                                                       "expires_at":  "2026-10-31T20:16:47.523Z"
+                                                                                                                   },
+                                      "dev_adm_408287d1087c8eb14fe0a4751177e3930bcc48ec56e33467d7dc35acc565be15":  {
+                                                                                                                       "email_id":  "admin@t4.com",
+                                                                                                                       "name":  "Super Admin T4",
+                                                                                                                       "role":  "developer",
+                                                                                                                       "created_at":  "2026-10-30T20:17:06.945Z",
+                                                                                                                       "expires_at":  "2026-10-31T20:17:06.945Z"
+                                                                                                                   },
+                                      "dev_adm_991cc70f0e8977aaaec54ec5a2212ca41b9a32cedd323d52bd027e7ae517cf3d":  {
+                                                                                                                       "email_id":  "admin@t4.com",
+                                                                                                                       "name":  "Super Admin T4",
+                                                                                                                       "role":  "developer",
+                                                                                                                       "created_at":  "2026-10-30T20:17:29.221Z",
+                                                                                                                       "expires_at":  "2026-10-31T20:17:29.221Z"
+                                                                                                                   }
+                                  }
+}

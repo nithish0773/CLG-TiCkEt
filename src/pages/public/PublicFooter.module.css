@@ -1,0 +1,136 @@
+.footer {
+  background-color: var(--color-deep-navy);
+  color: var(--color-white);
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding: var(--space-12) 0 var(--space-8);
+  font-family: var(--font-sans);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--space-6);
+}
+
+.topGrid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: var(--space-10);
+  padding-bottom: var(--space-10);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  margin-bottom: var(--space-4);
+}
+
+.logoMark {
+  width: 30px;
+  height: 30px;
+  background-color: var(--color-primary-navy);
+  border: 1px solid rgba(72, 202, 228, 0.3);
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-electric-cyan);
+}
+
+.brandTitle {
+  font-size: var(--text-lg);
+  font-weight: var(--weight-bold);
+  color: var(--color-white);
+  letter-spacing: -0.01em;
+}
+
+.brandDesc {
+  color: #94A3B8;
+  font-size: var(--text-sm);
+  line-height: 1.6;
+  max-width: 360px;
+  margin: 0;
+}
+
+.colHeading {
+  font-size: var(--text-xs);
+  font-weight: var(--weight-semibold);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #CBD5E1;
+  margin: 0 0 var(--space-4);
+}
+
+.linkList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2-5);
+}
+
+.linkList li a {
+  font-size: var(--text-sm);
+  color: #94A3B8;
+  text-decoration: none;
+  transition: color var(--duration-fast);
+}
+
+.linkList li a:hover {
+  color: var(--color-white);
+}
+
+.bottomBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: var(--space-6);
+  font-size: var(--text-xs);
+  color: #64748B;
+}
+
+.copyright {
+  margin: 0;
+}
+
+.statusIndicator {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.statusDot {
+  width: 7px;
+  height: 7px;
+  border-radius: var(--radius-full);
+  background-color: var(--color-success);
+  box-shadow: 0 0 6px rgba(22, 134, 106, 0.6);
+}
+
+.statusText {
+  color: #94A3B8;
+}
+
+@media (max-width: 900px) {
+  .topGrid {
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-8);
+  }
+}
+
+@media (max-width: 600px) {
+  .topGrid {
+    grid-template-columns: 1fr;
+    gap: var(--space-6);
+  }
+
+  .bottomBar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-3);
+  }
+}
+

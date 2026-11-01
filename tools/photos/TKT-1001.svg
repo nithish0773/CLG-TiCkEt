@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#101827"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="480" fill="url(#bg)"/>
+  <rect x="40" y="40" width="560" height="400" rx="12" fill="none" stroke="#334155" stroke-width="2" stroke-dasharray="8 6"/>
+  <circle cx="320" cy="210" r="48" fill="#477BFF" opacity="0.15"/>
+  <path d="M304 210h32M320 194v32" stroke="#477BFF" stroke-width="4" stroke-linecap="round"/>
+  <text x="320" y="290" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="600" fill="#F8FAFC">
+    CAMPUS INFRASTRUCTURE EVIDENCE
+  </text>
+  <text x="320" y="320" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#94A3B8">
+    Verified Photographic Incident Record • High Precision Audit Asset
+  </text>
+  <text x="320" y="390" text-anchor="middle" font-family="monospace" font-size="12" fill="#64748B">
+    SHA-256: 8f4e2b1c9d3a7e5f0b8c6a4d2e1f9a8b • 2026-10-30 IST
+  </text>
+</svg>

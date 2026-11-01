@@ -1,0 +1,328 @@
+/* Command Center Grid & Components */
+
+.pulseGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: var(--space-4);
+  margin-bottom: var(--space-6);
+}
+
+.pulseCard {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  transition: all var(--duration-fast);
+  position: relative;
+  overflow: hidden;
+}
+
+.pulseCard:hover {
+  border-color: var(--color-primary);
+  box-shadow: var(--shadow-sm);
+  transform: translateY(-1px);
+}
+
+.pulseHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pulseLabel {
+  font-size: 12px;
+  font-weight: var(--weight-medium);
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.pulseIcon {
+  width: 28px;
+  height: 28px;
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.pulseValue {
+  font-size: 28px;
+  font-weight: var(--weight-bold);
+  color: var(--color-text);
+  line-height: 1.1;
+  font-family: var(--font-mono);
+}
+
+.pulseMeta {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  color: var(--color-text-muted);
+}
+
+/* Two-column Command Center row */
+.sectionRow {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: var(--space-6);
+  margin-bottom: var(--space-6);
+}
+
+@media (max-width: 1024px) {
+  .sectionRow {
+    grid-template-columns: 1fr;
+  }
+}
+
+.panel {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.panelHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-4) var(--space-5);
+  border-bottom: 1px solid var(--color-border);
+  background: var(--color-surface);
+}
+
+.panelTitle {
+  font-size: 14px;
+  font-weight: var(--weight-bold);
+  color: var(--color-text);
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.panelAction {
+  font-size: 12px;
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: var(--weight-medium);
+  cursor: pointer;
+  background: transparent;
+  border: none;
+}
+
+.panelAction:hover {
+  text-decoration: underline;
+}
+
+.panelBody {
+  padding: var(--space-5);
+  flex: 1;
+}
+
+/* Live Issue Monitor table */
+.issueList {
+  display: flex;
+  flex-direction: column;
+  divide-y: 1px solid var(--color-border);
+}
+
+.issueRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-3) 0;
+  border-bottom: 1px solid var(--color-border);
+  transition: background var(--duration-fast);
+  cursor: pointer;
+}
+
+.issueRow:last-child {
+  border-bottom: none;
+}
+
+.issueRow:hover {
+  background: var(--color-surface-muted);
+}
+
+.issueLeft {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  min-width: 0;
+}
+
+.issueId {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: var(--weight-bold);
+  color: var(--color-primary);
+  white-space: nowrap;
+}
+
+.issueTitle {
+  font-size: 13px;
+  font-weight: var(--weight-medium);
+  color: var(--color-text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.issueMeta {
+  font-size: 11px;
+  color: var(--color-text-muted);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.issueRight {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  flex-shrink: 0;
+}
+
+/* Attention Required Banner */
+.attentionBanner {
+  background: rgba(239, 68, 68, 0.08);
+  border: 1px solid rgba(239, 68, 68, 0.25);
+  border-radius: var(--radius-md);
+  padding: var(--space-4) var(--space-5);
+  margin-bottom: var(--space-6);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+}
+
+.attentionLeft {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.attentionIcon {
+  font-size: 22px;
+  color: var(--color-danger);
+}
+
+.attentionTitle {
+  font-size: 13px;
+  font-weight: var(--weight-bold);
+  color: var(--color-danger);
+}
+
+.attentionDesc {
+  font-size: 12px;
+  color: var(--color-text);
+  margin-top: 2px;
+}
+
+/* Building Progress / Distribution */
+.distributionList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.distItem {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.distHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.distName {
+  color: var(--color-text);
+  font-weight: var(--weight-medium);
+}
+
+.distCount {
+  font-family: var(--font-mono);
+  color: var(--color-text-muted);
+  font-size: 11px;
+}
+
+.progressBarBg {
+  height: 6px;
+  background: var(--color-surface-muted);
+  border-radius: var(--radius-full);
+  overflow: hidden;
+  position: relative;
+}
+
+.progressBarFill {
+  height: 100%;
+  border-radius: var(--radius-full);
+  transition: width 0.5s ease-out;
+}
+
+/* Maintenance Heatmap grid */
+.heatmapGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: var(--space-3);
+}
+
+.heatmapCell {
+  padding: var(--space-3);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-border);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  cursor: pointer;
+  transition: all var(--duration-fast);
+  background: var(--color-surface);
+}
+
+.heatmapCell:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-sm);
+}
+
+.heatmapLow {
+  border-color: rgba(22, 163, 106, 0.3);
+  background: rgba(22, 163, 106, 0.04);
+}
+
+.heatmapMedium {
+  border-color: rgba(245, 158, 11, 0.3);
+  background: rgba(245, 158, 11, 0.05);
+}
+
+.heatmapHigh {
+  border-color: rgba(239, 68, 68, 0.35);
+  background: rgba(239, 68, 68, 0.06);
+}
+
+.heatmapBuildingName {
+  font-size: 12px;
+  font-weight: var(--weight-semibold);
+  color: var(--color-text);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.heatmapBadgeRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4px;
+}
+

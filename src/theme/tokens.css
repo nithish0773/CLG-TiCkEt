@@ -1,0 +1,143 @@
+/*
+ * CampusOS FixIt - Architectural Operations Intelligence Design System
+ * Strict Color Palette & Design Tokens
+ */
+
+:root {
+  /* Exact Specified Palette */
+  --color-primary-navy: #14243B;
+  --color-deep-navy: #0C1728;
+  --color-secondary-navy: #233750;
+  --color-accent-blue: #246BCE;
+  --color-accent-hover: #1D58AB;
+  --color-electric-cyan: #48CAE4;
+  --color-soft-cyan: #E7F7FA;
+  --color-warm-ivory: #F7F7F2;
+  --color-white: #FFFFFF;
+  --color-main-text: #172334;
+  --color-muted-text: #788596;
+  --color-border: #E2E7EC;
+  --color-border-hover: #CBD5E1;
+  --color-success: #16866A;
+  --color-success-bg: #E6F4F0;
+  --color-warning: #D99A35;
+  --color-warning-bg: #FEF7E8;
+  --color-critical: #D95757;
+  --color-critical-bg: #FDF0F0;
+
+  /* App Semantic Mapping */
+  --color-bg: var(--color-warm-ivory);
+  --color-surface: var(--color-white);
+  --color-surface-muted: #F1F4F8;
+  --color-surface-navy: var(--color-primary-navy);
+  --color-text: var(--color-main-text);
+  --color-text-muted: var(--color-muted-text);
+  --color-text-inverse: var(--color-white);
+  --color-primary: var(--color-accent-blue);
+  --color-primary-hover: var(--color-accent-hover);
+  --color-on-primary: var(--color-white);
+  --color-primary-subtle: var(--color-soft-cyan);
+  --color-accent: var(--color-accent-blue);
+  --color-danger: var(--color-critical);
+  --color-focus-ring: var(--color-accent-blue);
+
+  /* Shorthand aliases for universal CSS module compatibility */
+  --primary-navy: #14243B;
+  --deep-navy: #0C1728;
+  --secondary-navy: #233750;
+  --accent-blue: #246BCE;
+  --accent-hover: #1D58AB;
+  --electric-cyan: #48CAE4;
+  --soft-cyan: #E7F7FA;
+  --warm-ivory: #F7F7F2;
+  --white: #FFFFFF;
+  --main-text: #172334;
+  --muted-text: #788596;
+  --border: #E2E7EC;
+  --border-hover: #CBD5E1;
+  --success: #16866A;
+  --success-bg: #E6F4F0;
+  --warning: #D99A35;
+  --warning-bg: #FEF7E8;
+  --critical: #D95757;
+  --critical-bg: #FDF0F0;
+
+  /* Spacing Scale (4px base) */
+  --space-0-5: 2px;
+  --space-1: 4px;
+  --space-1-5: 6px;
+  --space-2: 8px;
+  --space-2-5: 10px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-7: 28px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+
+  /* Border Radii */
+  --radius-xs: 2px;
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius-xl: 12px;
+  --radius-full: 9999px;
+
+  /* Typography */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: 'SF Mono', Menlo, Monaco, Consolas, monospace;
+
+  --text-2xs: 11px;
+  --text-xs: 12px;
+  --text-sm: 13px;
+  --text-md: 14px;
+  --text-base: 15px;
+  --text-lg: 16px;
+  --text-xl: 18px;
+  --text-2xl: 22px;
+  --text-3xl: 28px;
+  --text-4xl: 36px;
+  --text-5xl: 48px;
+
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+
+  /* Natural Architectural Shadows */
+  --shadow-xs: 0 1px 2px rgba(12, 23, 40, 0.04);
+  --shadow-sm: 0 1px 3px rgba(12, 23, 40, 0.06), 0 1px 2px rgba(12, 23, 40, 0.04);
+  --shadow-md: 0 4px 6px -1px rgba(12, 23, 40, 0.08), 0 2px 4px -2px rgba(12, 23, 40, 0.04);
+  --shadow-lg: 0 10px 15px -3px rgba(12, 23, 40, 0.08), 0 4px 6px -4px rgba(12, 23, 40, 0.04);
+  --shadow-card: 0 0 0 1px var(--color-border), 0 1px 3px rgba(12, 23, 40, 0.04);
+
+  /* Transitions */
+  --duration-fast: 120ms;
+  --duration-normal: 200ms;
+  --ease-standard: cubic-bezier(0.16, 1, 0.3, 1);
+
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  font-size: var(--text-md);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

@@ -1,0 +1,225 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--color-border);
+  transition: all var(--duration-fast);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--space-6);
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  text-decoration: none;
+}
+
+.logoMark {
+  width: 34px;
+  height: 34px;
+  background-color: var(--color-primary-navy);
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-electric-cyan);
+  box-shadow: 0 1px 3px rgba(20, 36, 59, 0.15);
+}
+
+.brandText {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-1-5);
+}
+
+.brandTitle {
+  font-size: var(--text-lg);
+  font-weight: var(--weight-bold);
+  color: var(--color-primary-navy);
+  letter-spacing: -0.02em;
+}
+
+.brandBadge {
+  font-size: var(--text-2xs);
+  font-weight: var(--weight-bold);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  background-color: var(--color-soft-cyan);
+  color: var(--color-accent-blue);
+  padding: 1px 6px;
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(36, 107, 206, 0.2);
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+  gap: var(--space-6);
+}
+
+.navLink {
+  font-size: var(--text-sm);
+  font-weight: var(--weight-medium);
+  color: var(--color-muted-text);
+  text-decoration: none;
+  transition: color var(--duration-fast);
+  padding: var(--space-1) 0;
+  position: relative;
+}
+
+.navLink:hover {
+  color: var(--color-main-text);
+}
+
+.navLink.active {
+  color: var(--color-accent-blue);
+  font-weight: var(--weight-semibold);
+}
+
+.navLink.active::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: var(--color-accent-blue);
+  border-radius: var(--radius-full);
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.secondaryBtn {
+  font-size: var(--text-sm);
+  font-weight: var(--weight-medium);
+  color: var(--color-main-text);
+  padding: 8px 16px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+  background-color: var(--color-white);
+  text-decoration: none;
+  transition: all var(--duration-fast);
+}
+
+.secondaryBtn:hover {
+  background-color: var(--color-surface-muted);
+  border-color: var(--color-border-hover);
+}
+
+.primaryBtn {
+  font-size: var(--text-sm);
+  font-weight: var(--weight-medium);
+  color: var(--color-white);
+  background-color: var(--color-primary-navy);
+  padding: 8px 16px;
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  transition: all var(--duration-fast);
+  box-shadow: 0 1px 2px rgba(12, 23, 40, 0.08);
+}
+
+.primaryBtn:hover {
+  background-color: var(--color-secondary-navy);
+}
+
+.menuToggle {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--color-main-text);
+  cursor: pointer;
+  padding: var(--space-1);
+}
+
+.mobileMenu {
+  display: none;
+  background-color: var(--color-white);
+  border-bottom: 1px solid var(--color-border);
+  padding: var(--space-4) var(--space-6) var(--space-6);
+  box-shadow: var(--shadow-md);
+}
+
+.mobileNavLinks {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.mobileNavLink {
+  font-size: var(--text-base);
+  font-weight: var(--weight-medium);
+  color: var(--color-main-text);
+  padding: var(--space-2) 0;
+  text-decoration: none;
+}
+
+.mobileNavLink.activeMobile {
+  color: var(--color-accent-blue);
+  font-weight: var(--weight-semibold);
+}
+
+.mobileDivider {
+  height: 1px;
+  background-color: var(--color-border);
+  margin: var(--space-2) 0;
+}
+
+.mobileActionGroup {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.mobileSecondaryBtn,
+.mobilePrimaryBtn {
+  text-align: center;
+  padding: 10px;
+  border-radius: var(--radius-md);
+  font-weight: var(--weight-medium);
+  font-size: var(--text-sm);
+}
+
+.mobileSecondaryBtn {
+  border: 1px solid var(--color-border);
+  color: var(--color-main-text);
+}
+
+.mobilePrimaryBtn {
+  background-color: var(--color-primary-navy);
+  color: var(--color-white);
+}
+
+@media (max-width: 768px) {
+  .navLinks,
+  .secondaryBtn,
+  .actions .primaryBtn {
+    display: none;
+  }
+
+  .menuToggle {
+    display: block;
+  }
+
+  .mobileMenu {
+    display: block;
+  }
+}
+
